@@ -1,9 +1,0 @@
-"Part";"Value";"Device";"Package";"Description";"";
-"C1";"0.1 uF";"CAP0805";"0805";"Capacitor";"";
-"HEADER-RJ1";"RJ45-8PTH";"RJ45-8PTH";"RJ45-8";"RJ45 Jack";"";
-"J_FLOW";"";"M06SIP";"1X06";"Header 6";"";
-"J_OW";"";"M06SIP";"1X06";"Header 6";"";
-"J_OW1";"";"M06SIP";"1X06";"Header 6";"";
-"LED1";"";"LED-FKIT-1206";"FKIT-LED-1206";"LEDs";"";
-"R1";"1K";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";
-"U$1";"TEMPERATURE-SENSOR";"TEMPERATURE-SENSOR";"TO-92";"";"";
