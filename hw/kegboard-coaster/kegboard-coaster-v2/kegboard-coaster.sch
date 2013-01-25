@@ -4686,7 +4686,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="-FKIT-1206"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1 uF"/>
-<part name="U$2" library="geoffculp" deviceset="TEMPERATURE-SENSOR" device="UMAX8"/>
+<part name="U$1" library="geoffculp" deviceset="TEMPERATURE-SENSOR" device="UMAX8"/>
 </parts>
 <sheets>
 <sheet>
@@ -4702,7 +4702,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R1" gate="G$1" x="45.72" y="104.14"/>
 <instance part="LED1" gate="G$1" x="58.42" y="104.14" rot="R90"/>
 <instance part="C1" gate="G$1" x="60.96" y="83.82"/>
-<instance part="U$2" gate="G$1" x="106.68" y="106.68"/>
+<instance part="U$1" gate="G$1" x="106.68" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -4716,7 +4716,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="137.16" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <label x="121.92" y="106.68" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="DQ"/>
+<pinref part="U$1" gate="G$1" pin="DQ"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
@@ -4740,7 +4740,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="99.06" y1="109.22" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
@@ -4792,7 +4792,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="99.06" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="86.36" y="104.14" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
