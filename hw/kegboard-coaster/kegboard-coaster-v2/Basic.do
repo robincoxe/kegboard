@@ -19,5 +19,5 @@ recorner diagonal .2 .2 .2
 recorner diagonal .1 .1 .1
 recorner diagonal .05 .05 .05
 recorner diagonal .025 .025 .025
-write script c:/close-haul/github/kegboard/hw/kegboard-coaster/kegboard-coaster/kegboard-coaster.scr 
+write script c:/close-haul/github/kegboard/hw/kegboard-coaster/kegboard-coaster-v2/kegboard-coaster.scr 
 status_file
