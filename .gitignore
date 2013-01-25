@@ -18,3 +18,10 @@ arduino/kegboard/build-cli
 /hw/kegboard-coaster/kegboard-coaster/kegboard-coaster.s#1
 /hw/kegboard-coaster/kegboard-coaster-v2/kegboard-coaster.s#2
 /hw/kegboard-coaster/kegboard-coaster-v2/kegboard-coaster.s#1
+/hw/kegboard-coaster/kegboard-coaster-v2/*.b#5
+/hw/kegboard-coaster/kegboard-coaster-v2/*.s#2
+/hw/kegboard-coaster/kegboard-coaster-v2/*.b#1
+/hw/kegboard-coaster/kegboard-coaster-v2/*.b#2
+/hw/kegboard-coaster/kegboard-coaster-v2/*.b#3
+/hw/kegboard-coaster/kegboard-coaster-v2/*.b#4
+/hw/kegboard-coaster/kegboard-coaster-v2/*.s#1
