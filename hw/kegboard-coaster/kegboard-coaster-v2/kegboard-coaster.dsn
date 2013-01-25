@@ -1,4 +1,4 @@
-(PCB "c:/close-haul/github/kegboard/hw/kegboard-coaster/kegboard-coaster/kegboard-coaster.brd"
+(PCB "c:/close-haul/github/kegboard/hw/kegboard-coaster/kegboard-coaster-v2/kegboard-coaster.brd"
   (resolution inch 10000)
   (structure
     (layer "Top" (type signal) (direction horizontal))
@@ -22,15 +22,14 @@
     )
   )
   (placement
-    (component "0805$SparkFun-Passives" (place "C1" 0.850000 0.400000 Front 270.000000))
+    (component "0805$SparkFun-Passives" (place "C1" 0.900000 0.400000 Front 270.000000))
     (component "RJ45-8$SparkFun" (place "HEADER-RJ1" 1.400000 0.350000 Front 90.000000))
-    (component "STAND-OFF$SparkFun-20100412" (place "JP2" 0.550000 0.350000 Front 0.000000))
     (component "1X06$SparkFun-20100412" (place "J_FLOW" 0.100000 0.600000 Front 270.000000))
     (component "1X06$SparkFun-20100412" (place "J_OW" 0.800000 0.600000 Front 180.000000))
     (component "1X06$SparkFun-20100412" (place "J_OW1" 0.300000 0.100000 Front 0.000000))
     (component "FKIT-LED-1206$SparkFun-LED" (place "LED1" 0.500000 0.300000 Front 0.000000))
     (component "R0805$resistor" (place "R1" 0.300000 0.300000 Front 0.000000))
-    (component "TO-92$geoffculp" (place "U$1" 0.750000 0.350000 Front 90.000000))
+    (component "UMAX8$geoffculp" (place "U$2" 0.750000 0.400000 Front 270.000000))
   )
   (library
     (image "RJ45-8$SparkFun"
@@ -38,9 +37,9 @@
       (outline (path "Top" 0.008000 -0.300000 -0.118110 -0.300000 0.393701))
       (outline (path "Top" 0.008000 -0.300000 -0.118110 0.300000 -0.118110))
       (outline (path "Top" 0.008000 0.300000 0.393701 0.300000 -0.118110))
-      (keepout (circ signal 0.133984 -0.225000 0.000000))
-      (keepout (circ signal 0.133984 0.225000 0.000000))
-      (pin "Square1" "1" -0.175000 0.250000)
+      (keepout (circ signal 0.151181 -0.225000 0.000000))
+      (keepout (circ signal 0.151181 0.225000 0.000000))
+      (pin "Round1" "1" -0.175000 0.250000)
       (pin "Round1" "2" -0.125000 0.350000)
       (pin "Round1" "3" -0.075000 0.250000)
       (pin "Round1" "4" -0.025000 0.350000)
@@ -95,13 +94,6 @@
       (pin "Round2" "5" 0.400000 0.000000)
       (pin "Round2" "6" 0.500000 0.000000)
     )
-    (image "STAND-OFF$SparkFun-20100412"
-      (wire_keepout (path "Top" 0.008000 0.000000 0.073000 0.000000 -0.073000))
-      (wire_keepout (path "Top" 0.008000 0.000000 -0.073000 0.000000 0.073000))
-      (wire_keepout (path "Bottom" 0.008000 0.000000 -0.073000 0.000000 0.073000))
-      (wire_keepout (path "Bottom" 0.008000 0.000000 -0.073000 0.000000 0.073000))
-      (keepout (circ signal 0.138000 0.000000 0.000000))
-    )
     (image "FKIT-LED-1206$SparkFun-LED"
       (outline (path "Top" 0.004000 -0.021654 -0.019685 0.021654 -0.019685))
       (outline (path "Top" 0.004000 0.021654 0.019685 -0.021654 0.019685))
@@ -116,27 +108,28 @@
       (pin "Rectangle2" "1" -0.035433 0.000000)
       (pin "Rectangle2" "2" 0.035433 0.000000)
     )
-    (image "TO-92$geoffculp"
-      (outline (path "Top" 0.008000 -0.082465 -0.065000 -0.030957 0.100335))
-      (outline (path "Top" 0.008000 0.030957 0.100331 0.082461 -0.065000))
-      (outline (path "Top" 0.008000 -0.082461 -0.065000 0.082461 -0.065000))
-      (outline (path "Top" 0.008000 -0.104524 -0.010000 -0.088728 -0.010000))
-      (outline (path "Top" 0.008000 -0.011272 -0.010000 0.011272 -0.010000))
-      (outline (path "Top" 0.008000 0.088728 -0.010000 0.104524 -0.010000))
-      (pin "Round3" "1" -0.050000 0.000000)
-      (pin "Round3" "2" 0.000000 0.075000)
-      (pin "Round3" "3" 0.050000 0.000000)
+    (image "UMAX8$geoffculp"
+      (outline (path "Top" 0.008000 -0.055118 0.049213 0.055118 0.049213))
+      (outline (path "Top" 0.008000 0.055118 0.049213 0.055118 -0.049213))
+      (outline (path "Top" 0.008000 0.055118 -0.049213 -0.055118 -0.049213))
+      (outline (path "Top" 0.008000 -0.055118 -0.049213 -0.055118 0.049213))
+      (outline(circ "Top" 0.019685 -0.033465 -0.031496))
+      (pin "Rectangle3" "1" -0.038386 -0.085630)
+      (pin "Rectangle3" "2" -0.012795 -0.085630)
+      (pin "Rectangle3" "3" 0.012795 -0.085630)
+      (pin "Rectangle3" "4" 0.038386 -0.085630)
+      (pin "Rectangle3" "5" 0.038386 0.085630)
+      (pin "Rectangle3" "6" 0.012795 0.085630)
+      (pin "Rectangle3" "7" -0.012795 0.085630)
+      (pin "Rectangle3" "8" -0.038386 0.085630)
     )
     (image "R0805$resistor"
-      (pin "Rectangle3" "1" -0.033465 0.000000)
-      (pin "Rectangle3" "2" 0.033465 0.000000)
+      (pin "Rectangle4" "1" -0.033465 0.000000)
+      (pin "Rectangle4" "2" 0.033465 0.000000)
     )
     (padstack ViaDefault
       (shape (circle signal 0.040000 0 0))
       (shape (circle @sys_drill 0.020000 0 0))
-    )
-    (padstack "Square1"
-      (shape (rect signal -0.037000 -0.037000 0.037000 0.037000))
     )
     (padstack "Round1"
       (shape (circle signal 0.074000 0 0))
@@ -150,16 +143,16 @@
     (padstack "Rectangle2"
       (shape (rect "Top" -0.015748 -0.023622 0.015748 0.023622))
     )
-    (padstack "Round3"
-      (shape (circle signal 0.074000 0 0))
-    )
     (padstack "Rectangle3"
+      (shape (rect "Top" -0.007874 -0.026575 0.007874 0.026575))
+    )
+    (padstack "Rectangle4"
       (shape (rect "Top" -0.025591 -0.029528 0.025591 0.029528))
     )
   )
   (network
     (net "5V"
-      (pins  "HEADER-RJ1"-"2" "J_FLOW"-"1" "J_FLOW"-"4" "J_OW"-"1" "J_OW"-"4" "J_OW1"-"1" "J_OW1"-"4" "U$1"-"3" "R1"-"1" "C1"-"1")
+      (pins  "HEADER-RJ1"-"2" "J_FLOW"-"1" "J_FLOW"-"4" "J_OW"-"1" "J_OW"-"4" "J_OW1"-"1" "J_OW1"-"4" "R1"-"1" "C1"-"1" "U$2"-"8")
     )
     (net "FLOW_A"
       (pins  "HEADER-RJ1"-"6" "J_FLOW"-"2")
@@ -168,7 +161,7 @@
       (pins  "HEADER-RJ1"-"8" "J_FLOW"-"5")
     )
     (net "GND"
-      (pins  "HEADER-RJ1"-"5" "J_FLOW"-"3" "J_FLOW"-"6" "J_OW"-"3" "J_OW"-"6" "J_OW1"-"3" "J_OW1"-"6" "U$1"-"1" "LED1"-"C" "C1"-"2")
+      (pins  "HEADER-RJ1"-"5" "J_FLOW"-"3" "J_FLOW"-"6" "J_OW"-"3" "J_OW"-"6" "J_OW1"-"3" "J_OW1"-"6" "LED1"-"C" "C1"-"2" "U$2"-"4")
     )
     (net "GPIO_A"
       (pins  "HEADER-RJ1"-"3" "J_OW1"-"2")
@@ -180,7 +173,7 @@
       (pins  "LED1"-"A" "R1"-"2")
     )
     (net "ONEWIRE_A"
-      (pins  "HEADER-RJ1"-"1" "J_OW"-"2" "U$1"-"2")
+      (pins  "HEADER-RJ1"-"1" "J_OW"-"2" "U$2"-"1")
     )
     (net "ONEWIRE_B"
       (pins  "HEADER-RJ1"-"4" "J_OW"-"5")

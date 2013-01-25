@@ -960,6 +960,32 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="UMAX8">
+<description>&lt;b&gt;micro MAX Package&lt;/b&gt;</description>
+<wire x1="-1.4" y1="1.25" x2="1.4" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.25" x2="1.4" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.25" x2="-1.4" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.25" x2="-1.4" y2="1.25" width="0.2032" layer="21"/>
+<circle x="-0.85" y="-0.8" radius="0.25" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="2" x="-0.325" y="-2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="3" x="0.325" y="-2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="4" x="0.975" y="-2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="5" x="0.975" y="2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="6" x="0.325" y="2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="7" x="-0.325" y="2.175" dx="0.4" dy="1.35" layer="1"/>
+<smd name="8" x="-0.975" y="2.175" dx="0.4" dy="1.35" layer="1"/>
+<text x="-1.905" y="-1.27" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.1528" y1="-2.4036" x2="-0.7972" y2="-1.4384" layer="51"/>
+<rectangle x1="-0.5028" y1="-2.4036" x2="-0.1472" y2="-1.4384" layer="51"/>
+<rectangle x1="0.1472" y1="-2.4036" x2="0.5028" y2="-1.4384" layer="51"/>
+<rectangle x1="0.7972" y1="-2.4036" x2="1.1528" y2="-1.4384" layer="51"/>
+<rectangle x1="0.7972" y1="1.4384" x2="1.1528" y2="2.4036" layer="51"/>
+<rectangle x1="0.1472" y1="1.4384" x2="0.5028" y2="2.4036" layer="51"/>
+<rectangle x1="-0.5028" y1="1.4384" x2="-0.1472" y2="2.4036" layer="51"/>
+<rectangle x1="-1.1528" y1="1.4384" x2="-0.7972" y2="2.4036" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEMPERATURE-SENSOR">
@@ -985,6 +1011,16 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connect gate="G$1" pin="DQ" pad="2"/>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UMAX8" package="UMAX8">
+<connects>
+<connect gate="G$1" pin="DQ" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4647,10 +4683,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="J_FLOW" library="SparkFun-20100412" deviceset="M06" device="SIP"/>
 <part name="J_OW" library="SparkFun-20100412" deviceset="M06" device="SIP"/>
 <part name="J_OW1" library="SparkFun-20100412" deviceset="M06" device="SIP"/>
-<part name="U$1" library="geoffculp" deviceset="TEMPERATURE-SENSOR" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="-FKIT-1206"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1 uF"/>
+<part name="U$2" library="geoffculp" deviceset="TEMPERATURE-SENSOR" device="UMAX8"/>
 </parts>
 <sheets>
 <sheet>
@@ -4663,10 +4699,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="J_FLOW" gate="G$1" x="109.22" y="134.62" rot="R180"/>
 <instance part="J_OW" gate="G$1" x="172.72" y="121.92" rot="R180"/>
 <instance part="J_OW1" gate="G$1" x="172.72" y="96.52" rot="R180"/>
-<instance part="U$1" gate="G$1" x="106.68" y="106.68"/>
 <instance part="R1" gate="G$1" x="45.72" y="104.14"/>
 <instance part="LED1" gate="G$1" x="58.42" y="104.14" rot="R90"/>
 <instance part="C1" gate="G$1" x="60.96" y="83.82"/>
+<instance part="U$2" gate="G$1" x="106.68" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -4680,7 +4716,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="137.16" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
 <label x="121.92" y="106.68" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="DQ"/>
+<pinref part="U$2" gate="G$1" pin="DQ"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
@@ -4704,7 +4740,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="99.06" y1="109.22" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
@@ -4756,7 +4792,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="99.06" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="86.36" y="104.14" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
