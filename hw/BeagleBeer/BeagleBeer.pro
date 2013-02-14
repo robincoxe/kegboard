@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : c:/close-haul/github/kegboard/hw/BeagleBeer/BeagleBeer.brd
 
-Start at      : 23:54:23 (2/10/2013)
-End at        : 23:54:23 (2/10/2013)
-Elapsed time  : 00:00:00
+Start at      : 23:50:39 (2/13/2013)
+End at        : 23:50:56 (2/13/2013)
+Elapsed time  : 00:00:17
 
-Signals       :   149   RoutingGrid: 50 mil  Layers: 2
-Connections   :   329   predefined:  329 ( 98 Vias )
+Signals       :   140   RoutingGrid: 8 mil  Layers: 2
+Connections   :   348   predefined:  4 ( 0 Vias )
 
-Router memory :   50172
+Router memory :   1734320
 
-Passname          :     Route
+Passname          :    Busses     Route
 
-Time per pass     :  00:00:00
-Number of Ripups  :         0
-max. Level        :         0
-max. Total        :         0
+Time per pass     :  00:00:00  00:00:17
+Number of Ripups  :         0        22
+max. Level        :         0         1
+max. Total        :         0        81
 
-Routed            :         0
-Vias              :         0
-Resolution        :   100.0 %
+Routed            :       127       344
+Vias              :         0       278
+Resolution        :    37.6 %   100.0 %
 
 Final             : 100.0% finished
