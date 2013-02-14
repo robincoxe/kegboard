@@ -9,5 +9,3 @@ filter 5
 recorner diagonal
 status_file
 
-[ELECTRA         ] 
-v2.9.4 exits with code: 0, errors: 0, warnings: 0

@@ -138,59 +138,11 @@
 <wire x1="26.416" y1="35.814" x2="17.526" y2="35.814" width="0.4064" layer="21"/>
 <wire x1="26.416" y1="48.514" x2="17.526" y2="48.514" width="0.4064" layer="21"/>
 <text x="26.416" y="-3.048" size="1.778" layer="21" rot="R180">1</text>
-<text x="23.622" y="-3.048" size="1.778" layer="21" rot="R180">2</text>
 <text x="-21.844" y="-3.048" size="1.778" layer="21" rot="R180">1</text>
-<text x="-24.384" y="-3.048" size="1.778" layer="21" rot="R180">2</text>
-<text x="25.4" y="56.642" size="1.778" layer="21" rot="R90">P9</text>
-<text x="-23.114" y="56.642" size="1.778" layer="21" rot="R90">P8</text>
-<text x="17.018" y="-0.508" size="1.27" layer="21" rot="R180">2</text>
-<text x="17.018" y="9.652" size="1.27" layer="21" rot="R180">10</text>
-<text x="17.018" y="22.352" size="1.27" layer="21" rot="R180">20</text>
-<text x="17.018" y="35.052" size="1.27" layer="21" rot="R180">30</text>
-<text x="17.018" y="50.292" size="1.27" layer="21" rot="R180">42</text>
-<text x="17.018" y="7.112" size="1.27" layer="21" rot="R180">8</text>
-<text x="17.018" y="4.572" size="1.27" layer="21" rot="R180">6</text>
-<text x="17.018" y="2.032" size="1.27" layer="21" rot="R180">4\</text>
-<text x="17.018" y="12.192" size="1.27" layer="21" rot="R180">12</text>
-<text x="17.018" y="14.732" size="1.27" layer="21" rot="R180">14</text>
-<text x="17.018" y="17.272" size="1.27" layer="21" rot="R180">16</text>
-<text x="17.018" y="19.812" size="1.27" layer="21" rot="R180">18</text>
-<text x="17.018" y="24.892" size="1.27" layer="21" rot="R180">22</text>
-<text x="17.018" y="27.432" size="1.27" layer="21" rot="R180">24</text>
-<text x="17.018" y="29.972" size="1.27" layer="21" rot="R180">26</text>
-<text x="17.018" y="32.512" size="1.27" layer="21" rot="R180">28</text>
-<text x="17.018" y="37.592" size="1.27" layer="21" rot="R180">32</text>
-<text x="17.018" y="40.132" size="1.27" layer="21" rot="R180">34</text>
-<text x="17.018" y="42.672" size="1.27" layer="21" rot="R180">36</text>
-<text x="17.018" y="52.832" size="1.27" layer="21" rot="R180">44</text>
-<text x="17.018" y="55.372" size="1.27" layer="21" rot="R180">46</text>
-<text x="-14.732" y="-0.508" size="1.27" layer="21" rot="R180">1</text>
-<text x="-14.859" y="9.652" size="1.27" layer="21" rot="R180">9</text>
-<text x="-13.97" y="22.352" size="1.27" layer="21" rot="R180">19</text>
-<text x="-13.97" y="35.052" size="1.27" layer="21" rot="R180">29</text>
-<text x="-14.732" y="7.112" size="1.27" layer="21" rot="R180">7</text>
-<text x="-14.732" y="4.572" size="1.27" layer="21" rot="R180">5</text>
-<text x="-14.732" y="2.032" size="1.27" layer="21" rot="R180">3</text>
-<text x="-13.97" y="12.192" size="1.27" layer="21" rot="R180">11</text>
-<text x="-13.97" y="14.732" size="1.27" layer="21" rot="R180">13</text>
-<text x="-13.97" y="17.272" size="1.27" layer="21" rot="R180">15</text>
-<text x="-13.97" y="19.812" size="1.27" layer="21" rot="R180">17</text>
-<text x="-13.97" y="24.892" size="1.27" layer="21" rot="R180">21</text>
-<text x="-13.97" y="27.432" size="1.27" layer="21" rot="R180">23</text>
-<text x="-13.97" y="29.972" size="1.27" layer="21" rot="R180">25</text>
-<text x="-13.97" y="32.512" size="1.27" layer="21" rot="R180">27</text>
-<text x="-13.97" y="37.592" size="1.27" layer="21" rot="R180">31</text>
-<text x="-13.97" y="40.132" size="1.27" layer="21" rot="R180">33</text>
-<text x="-13.97" y="42.672" size="1.27" layer="21" rot="R180">35</text>
-<text x="-13.97" y="47.752" size="1.27" layer="21" rot="R180">39</text>
-<text x="-13.97" y="50.292" size="1.27" layer="21" rot="R180">41</text>
-<text x="-13.97" y="52.832" size="1.27" layer="21" rot="R180">43</text>
-<text x="-13.97" y="55.372" size="1.27" layer="21" rot="R180">45</text>
-<text x="17.018" y="45.212" size="1.27" layer="21" rot="R180">38</text>
-<text x="17.018" y="47.752" size="1.27" layer="21" rot="R180">40</text>
+<text x="16.764" y="54.356" size="1.27" layer="21" rot="R180">46</text>
+<text x="-13.97" y="56.896" size="1.27" layer="21" rot="R180">45</text>
 <text x="-39.116" y="7.366" size="2.032" layer="21" font="vector" rot="R180">BeagleBeer 
 www.vencaf.org</text>
-<text x="-13.97" y="45.212" size="1.27" layer="21" rot="R180">37</text>
 <text x="-64.008" y="107.188" size="2.032" layer="21" font="vector">Flying Squirrel 
 Controller</text>
 <text x="-62.738" y="-2.54" size="1.27" layer="21" font="vector">February 2013
@@ -1309,14 +1261,29 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP1" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="-17.399" y="26.924" rot="R270"/>
-<element name="JP2" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="-19.939" y="26.924" rot="R90"/>
-<element name="JP3" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="20.701" y="26.924" rot="R270"/>
-<element name="JP4" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="18.161" y="26.924" rot="R90"/>
+<element name="JP1" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="-17.399" y="26.924" smashed="yes" rot="R270">
+<attribute name="NAME" x="-20.1422" y="56.9722" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-20.574" y="56.134" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="JP2" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="-19.939" y="26.924" smashed="yes" rot="R90">
+<attribute name="NAME" x="-12.6238" y="6.5278" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="-16.764" y="-2.286" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="JP3" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="20.701" y="26.924" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.1018" y="53.1622" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="17.526" y="56.134" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="JP4" library="microbuilder" package="1X23_ROUND_70MIL" value="" x="18.161" y="26.924" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.6982" y="-2.8702" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="21.336" y="-2.286" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="HEADER-GPO" library="SparkFun" package="SCREWTERMINAL-3.5MM-6" value="M063.5MM-SCREW" x="-27.178" y="105.918"/>
 <element name="HEADER-RELAY" library="SparkFun" package="SCREWTERMINAL-3.5MM-8" value="M083.5MM-SCREW" x="21.336" y="107.442"/>
 <element name="RESET" library="SparkFun" package="TACTILE-PTH" value="" x="-25.908" y="67.818" rot="R180"/>
-<element name="SG1" library="SparkFun" package="BUZZER-12MM" value="BUZZERPTH" x="52.324" y="51.562" rot="R270"/>
+<element name="SG1" library="SparkFun" package="BUZZER-12MM" value="BUZZERPTH" x="52.324" y="51.562" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.228" y="46.99" size="0.6096" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="45.212" y="50.165" size="0.6096" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="HEADER-RJ1" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-53.594" y="30.48" rot="R270"/>
 <element name="TEST_A" library="SparkFun-20100412" package="1X02" value="" x="5.334" y="109.22"/>
 <element name="TEST_B" library="SparkFun-20100412" package="1X02" value="" x="5.334" y="104.14"/>
@@ -1328,47 +1295,134 @@ design rules under a new name.</description>
 <element name="U1" library="geoffculp" package="UMAX8" value="TEMPERATURE-SENSORUMAX8" x="-35.306" y="46.482" smashed="yes">
 <attribute name="NAME" x="-37.211" y="45.212" size="1.016" layer="25" ratio="18" rot="R90"/>
 </element>
-<element name="R15" library="geoffculp" package="0805" value="2.2K" x="-41.656" y="46.736"/>
-<element name="R16" library="geoffculp" package="0805" value="2.2K" x="-41.656" y="43.942"/>
-<element name="R17" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="52.578"/>
-<element name="R18" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="49.784"/>
-<element name="R19" library="geoffculp" package="0805" value="1K" x="31.496" y="56.896"/>
-<element name="R13" library="geoffculp" package="0805" value="1K" x="45.72" y="31.496"/>
-<element name="R20" library="geoffculp" package="0805" value="1K" x="52.07" y="25.908"/>
-<element name="R21" library="geoffculp" package="0805" value="10K" x="55.118" y="28.194" rot="R270"/>
-<element name="R14" library="geoffculp" package="0805" value="1K" x="45.974" y="24.638"/>
-<element name="R23" library="geoffculp" package="0805" value="1K" x="52.324" y="18.796"/>
-<element name="R24" library="geoffculp" package="0805" value="10K" x="55.118" y="21.59" rot="R270"/>
-<element name="R1" library="geoffculp" package="0805" value="1K" x="45.72" y="80.772" rot="R180"/>
-<element name="R5" library="geoffculp" package="0805" value="1K" x="45.72" y="77.978"/>
-<element name="R6" library="geoffculp" package="0805" value="10K" x="48.26" y="77.216" rot="R90"/>
-<element name="R2" library="geoffculp" package="0805" value="1K" x="24.638" y="79.756" rot="R180"/>
-<element name="R7" library="geoffculp" package="0805" value="1K" x="22.86" y="77.47"/>
-<element name="R8" library="geoffculp" package="0805" value="10K" x="25.908" y="75.438" rot="R90"/>
-<element name="R3" library="geoffculp" package="0805" value="1K" x="1.016" y="79.756"/>
-<element name="R9" library="geoffculp" package="0805" value="1K" x="1.778" y="75.184" rot="R90"/>
-<element name="R10" library="geoffculp" package="0805" value="10K" x="-1.016" y="76.962"/>
-<element name="R4" library="geoffculp" package="0805" value="1K" x="-20.32" y="80.264"/>
-<element name="R11" library="geoffculp" package="0805" value="1K" x="-18.796" y="77.216"/>
-<element name="R12" library="geoffculp" package="0805" value="10K" x="-17.272" y="74.422" rot="R90"/>
-<element name="C1" library="geoffculp" package="0805" value="0.1 uF" x="37.592" y="36.068"/>
+<element name="R15" library="geoffculp" package="0805" value="2.2K" x="-41.656" y="46.736" smashed="yes">
+<attribute name="NAME" x="-39.878" y="46.5455" size="0.4064" layer="25"/>
+</element>
+<element name="R16" library="geoffculp" package="0805" value="2.2K" x="-41.656" y="43.942" smashed="yes">
+<attribute name="NAME" x="-39.878" y="43.4975" size="0.4064" layer="25"/>
+</element>
+<element name="R17" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="52.578" smashed="yes">
+<attribute name="NAME" x="-39.878" y="52.3875" size="0.4064" layer="25"/>
+</element>
+<element name="R18" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="49.784" smashed="yes">
+<attribute name="NAME" x="-39.878" y="49.5935" size="0.4064" layer="25"/>
+</element>
+<element name="R19" library="geoffculp" package="0805" value="1K" x="31.496" y="56.896" smashed="yes">
+<attribute name="NAME" x="31.242" y="55.4355" size="0.4064" layer="25"/>
+</element>
+<element name="R13" library="geoffculp" package="0805" value="1K" x="45.72" y="31.496" smashed="yes">
+<attribute name="NAME" x="44.958" y="32.3215" size="0.4064" layer="25"/>
+</element>
+<element name="R20" library="geoffculp" package="0805" value="1K" x="52.07" y="25.908" smashed="yes">
+<attribute name="NAME" x="49.53" y="25.7175" size="0.4064" layer="25"/>
+</element>
+<element name="R21" library="geoffculp" package="0805" value="10K" x="55.118" y="28.194" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.6735" y="26.416" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="R14" library="geoffculp" package="0805" value="1K" x="45.974" y="24.638" smashed="yes">
+<attribute name="NAME" x="43.18" y="24.1935" size="0.4064" layer="25"/>
+</element>
+<element name="R23" library="geoffculp" package="0805" value="1K" x="52.324" y="18.796" smashed="yes">
+<attribute name="NAME" x="51.562" y="19.6215" size="0.4064" layer="25"/>
+</element>
+<element name="R24" library="geoffculp" package="0805" value="10K" x="55.118" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.6575" y="21.844" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="R1" library="geoffculp" package="0805" value="1K" x="45.72" y="80.772" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.434" y="81.7245" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="R5" library="geoffculp" package="0805" value="1K" x="45.72" y="77.978" smashed="yes">
+<attribute name="NAME" x="44.958" y="78.8035" size="0.4064" layer="25"/>
+</element>
+<element name="R6" library="geoffculp" package="0805" value="10K" x="48.26" y="77.216" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.1805" y="75.692" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="R2" library="geoffculp" package="0805" value="1K" x="24.638" y="79.756" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.606" y="80.4545" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="R7" library="geoffculp" package="0805" value="1K" x="22.86" y="77.47" smashed="yes">
+<attribute name="NAME" x="20.574" y="77.2795" size="0.4064" layer="25"/>
+</element>
+<element name="R8" library="geoffculp" package="0805" value="10K" x="25.908" y="75.438" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.0825" y="74.676" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="R3" library="geoffculp" package="0805" value="1K" x="1.016" y="79.756" smashed="yes">
+<attribute name="NAME" x="-1.27" y="79.5655" size="0.4064" layer="25"/>
+</element>
+<element name="R9" library="geoffculp" package="0805" value="1K" x="1.778" y="75.184" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.2385" y="73.914" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="R10" library="geoffculp" package="0805" value="10K" x="-1.016" y="76.962" smashed="yes">
+<attribute name="NAME" x="-1.778" y="77.7875" size="0.4064" layer="25"/>
+</element>
+<element name="R4" library="geoffculp" package="0805" value="1K" x="-20.32" y="80.264" smashed="yes">
+<attribute name="NAME" x="-20.32" y="81.3435" size="0.4064" layer="25"/>
+</element>
+<element name="R11" library="geoffculp" package="0805" value="1K" x="-18.796" y="77.216" smashed="yes">
+<attribute name="NAME" x="-21.59" y="77.0255" size="0.4064" layer="25"/>
+</element>
+<element name="R12" library="geoffculp" package="0805" value="10K" x="-17.272" y="74.422" smashed="yes" rot="R90">
+<attribute name="NAME" x="-18.3515" y="74.422" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="C1" library="geoffculp" package="0805" value="0.1 uF" x="37.592" y="36.068" smashed="yes">
+<attribute name="NAME" x="36.83" y="36.8935" size="0.4064" layer="25"/>
+</element>
 <element name="D1" library="geoffculp" package="SOD-323" value="" x="50.546" y="80.01"/>
-<element name="D2" library="geoffculp" package="SOD-323" value="" x="28.448" y="79.756"/>
-<element name="D3" library="geoffculp" package="SOD-323" value="" x="4.826" y="79.756"/>
-<element name="D4" library="geoffculp" package="SOD-323" value="" x="-15.494" y="79.502"/>
-<element name="Q1" library="geoffculp" package="SOT23-3" value="" x="52.578" y="76.962" rot="R270"/>
-<element name="Q2" library="geoffculp" package="SOT23-3" value="" x="28.702" y="76.962" rot="R270"/>
-<element name="Q3" library="geoffculp" package="SOT23-3" value="" x="4.826" y="76.962" rot="R270"/>
-<element name="Q4" library="geoffculp" package="SOT23-3" value="" x="-14.478" y="76.2" rot="R270"/>
-<element name="Q5" library="geoffculp" package="SOT23-3" value="" x="52.07" y="28.702" rot="R90"/>
-<element name="Q6" library="geoffculp" package="SOT23-3" value="" x="51.816" y="21.844" rot="R90"/>
+<element name="D2" library="geoffculp" package="SOD-323" value="" x="28.448" y="79.756" smashed="yes">
+<attribute name="NAME" x="27.559" y="80.772" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="27.432" y="78.359" size="0.4064" layer="27"/>
+</element>
+<element name="D3" library="geoffculp" package="SOD-323" value="" x="4.826" y="79.756" smashed="yes">
+<attribute name="NAME" x="2.667" y="80.518" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="3.81" y="78.359" size="0.4064" layer="27"/>
+</element>
+<element name="D4" library="geoffculp" package="SOD-323" value="" x="-15.494" y="79.502" smashed="yes">
+<attribute name="NAME" x="-13.589" y="80.264" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="-16.51" y="78.105" size="0.4064" layer="27"/>
+</element>
+<element name="Q1" library="geoffculp" package="SOT23-3" value="" x="52.578" y="76.962" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.356" y="77.7875" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="52.3875" y="77.978" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="Q2" library="geoffculp" package="SOT23-3" value="" x="28.702" y="76.962" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.956" y="74.9935" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="28.5115" y="77.978" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="Q3" library="geoffculp" package="SOT23-3" value="" x="4.826" y="76.962" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.096" y="75.5015" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="4.6355" y="77.978" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="Q4" library="geoffculp" package="SOT23-3" value="" x="-14.478" y="76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="-12.7" y="77.0255" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-14.6685" y="77.216" size="0.4064" layer="27" rot="R270"/>
+</element>
+<element name="Q5" library="geoffculp" package="SOT23-3" value="" x="52.07" y="28.702" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.292" y="27.8765" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.2605" y="27.686" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q6" library="geoffculp" package="SOT23-3" value="" x="51.816" y="21.844" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.038" y="21.0185" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.0065" y="20.828" size="0.4064" layer="27" rot="R90"/>
+</element>
 <element name="LED1" library="SparkFun-LED" package="LED-1206" value="" x="51.816" y="83.058"/>
-<element name="LED2" library="SparkFun-LED" package="LED-1206" value="" x="28.194" y="82.55"/>
-<element name="LED3" library="SparkFun-LED" package="LED-1206" value="" x="4.572" y="82.55"/>
+<element name="LED2" library="SparkFun-LED" package="LED-1206" value="" x="28.194" y="82.55" smashed="yes">
+<attribute name="NAME" x="27.305" y="83.947" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="27.178" y="80.772" size="0.4064" layer="27"/>
+</element>
+<element name="LED3" library="SparkFun-LED" package="LED-1206" value="" x="4.572" y="82.55" smashed="yes">
+<attribute name="NAME" x="3.683" y="83.947" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="3.556" y="80.772" size="0.4064" layer="27"/>
+</element>
 <element name="LED4" library="SparkFun-LED" package="LED-1206" value="" x="-16.002" y="82.55"/>
 <element name="LED5" library="SparkFun-LED" package="LED-1206" value="" x="35.814" y="56.896"/>
-<element name="LED6" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="28.702"/>
-<element name="LED7" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="21.844"/>
+<element name="LED6" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="28.702" smashed="yes">
+<attribute name="NAME" x="45.847" y="30.099" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.72" y="26.924" size="0.4064" layer="27"/>
+</element>
+<element name="LED7" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="21.844" smashed="yes">
+<attribute name="NAME" x="45.847" y="23.241" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.72" y="20.066" size="0.4064" layer="27"/>
+</element>
 <element name="R22" library="geoffculp" package="0805" value="2.2K" x="-41.6814" y="28.2448" smashed="yes">
 <attribute name="NAME" x="-42.9514" y="29.5783" size="0.4064" layer="25"/>
 </element>
@@ -1381,25 +1435,57 @@ design rules under a new name.</description>
 <element name="R27" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="31.1912" smashed="yes">
 <attribute name="NAME" x="-42.418" y="32.0167" size="0.4064" layer="25"/>
 </element>
-<element name="R28" library="geoffculp" package="0805" value="1K" x="45.974" y="16.764"/>
-<element name="R29" library="geoffculp" package="0805" value="1K" x="52.324" y="10.922"/>
-<element name="R30" library="geoffculp" package="0805" value="10K" x="55.626" y="13.97" rot="R270"/>
-<element name="R31" library="geoffculp" package="0805" value="1K" x="45.72" y="10.16"/>
-<element name="R32" library="geoffculp" package="0805" value="1K" x="55.118" y="5.588" rot="R270"/>
-<element name="R33" library="geoffculp" package="0805" value="10K" x="52.324" y="4.572"/>
-<element name="Q7" library="geoffculp" package="SOT23-3" value="" x="52.324" y="13.97" rot="R90"/>
-<element name="Q8" library="geoffculp" package="SOT23-3" value="" x="52.07" y="7.366" rot="R90"/>
-<element name="LED8" library="SparkFun-LED" package="LED-1206" value="" x="46.99" y="13.716"/>
-<element name="LED9" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="7.366"/>
-<element name="C3" library="geoffculp" package="0805" value="0.1 uF" x="13.208" y="55.626" rot="R270"/>
-<element name="C4" library="geoffculp" package="0805" value="0.1 uF" x="17.272" y="57.404"/>
-<element name="C5" library="geoffculp" package="0805" value="0.1 uF" x="-12.446" y="2.54" rot="R270"/>
-<element name="C6" library="geoffculp" package="0805" value="0.1 uF" x="-18.796" y="-3.81"/>
+<element name="R28" library="geoffculp" package="0805" value="1K" x="45.974" y="16.764" smashed="yes">
+<attribute name="NAME" x="45.212" y="17.5895" size="0.4064" layer="25"/>
+</element>
+<element name="R29" library="geoffculp" package="0805" value="1K" x="52.324" y="10.922" smashed="yes">
+<attribute name="NAME" x="51.562" y="11.7475" size="0.4064" layer="25"/>
+</element>
+<element name="R30" library="geoffculp" package="0805" value="10K" x="55.626" y="13.97" smashed="yes" rot="R270"/>
+<element name="R31" library="geoffculp" package="0805" value="1K" x="45.72" y="10.16" smashed="yes">
+<attribute name="NAME" x="42.926" y="9.9695" size="0.4064" layer="25"/>
+</element>
+<element name="R32" library="geoffculp" package="0805" value="1K" x="55.118" y="5.588" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.9275" y="8.382" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="R33" library="geoffculp" package="0805" value="10K" x="52.324" y="4.572" smashed="yes">
+<attribute name="NAME" x="49.276" y="4.6355" size="0.4064" layer="25"/>
+</element>
+<element name="Q7" library="geoffculp" package="SOT23-3" value="" x="52.324" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.546" y="13.1445" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.5145" y="12.954" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q8" library="geoffculp" package="SOT23-3" value="" x="52.07" y="7.366" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.292" y="6.5405" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.2605" y="6.35" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="LED8" library="SparkFun-LED" package="LED-1206" value="" x="46.99" y="13.716" smashed="yes">
+<attribute name="NAME" x="42.545" y="13.843" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.974" y="11.938" size="0.4064" layer="27"/>
+</element>
+<element name="LED9" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="7.366" smashed="yes">
+<attribute name="NAME" x="42.545" y="6.985" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.72" y="5.588" size="0.4064" layer="27"/>
+</element>
+<element name="C3" library="geoffculp" package="0805" value="0.1 uF" x="13.208" y="55.626" smashed="yes" rot="R270">
+<attribute name="NAME" x="12.2555" y="53.848" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C4" library="geoffculp" package="0805" value="0.1 uF" x="17.272" y="57.404" smashed="yes">
+<attribute name="NAME" x="16.51" y="58.2295" size="0.4064" layer="25"/>
+</element>
+<element name="C5" library="geoffculp" package="0805" value="0.1 uF" x="-12.446" y="2.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-12.3825" y="4.826" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C6" library="geoffculp" package="0805" value="0.1 uF" x="-18.796" y="-3.81" smashed="yes">
+<attribute name="NAME" x="-19.812" y="-5.0165" size="0.4064" layer="25"/>
+</element>
 <element name="TEST_D" library="SparkFun-20100412" package="1X02" value="" x="-3.302" y="104.14"/>
 <element name="HEADER-RJ3" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-54.102" y="48.514" rot="R270"/>
 <element name="TEST_C" library="SparkFun-20100412" package="1X02" value="" x="-3.048" y="109.474"/>
 <element name="HEADER-RJ4" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-53.848" y="88.138" rot="R270"/>
-<element name="C2" library="geoffculp" package="0805" value="0.1 uF" x="52.07" y="32.258"/>
+<element name="C2" library="geoffculp" package="0805" value="0.1 uF" x="52.07" y="32.258" smashed="yes">
+<attribute name="NAME" x="49.784" y="31.8135" size="0.4064" layer="25"/>
+</element>
 <element name="U2" library="adafruit" package="TSSOP20" value="" x="-33.528" y="28.194" smashed="yes" rot="R90">
 <attribute name="NAME" x="-37.084" y="30.7444" size="0.6096" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="-31.4452" y="32.7302" size="1.016" layer="27" ratio="10" rot="R180"/>
@@ -1410,9 +1496,11 @@ design rules under a new name.</description>
 </element>
 <element name="U4" library="adafruit" package="TSSOP20" value="" x="-7.62" y="63.754" rot="R270"/>
 <element name="U5" library="ON Semiconductor_By_element14_Batch_1" package="SOIC127P600X175-8N" value="CAT24C256WI-GT3" x="35.052" y="31.496" smashed="yes">
-<attribute name="NAME" x="31.5976" y="35.941" size="2.0828" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="31.0896" y="28.321" size="0.6096" layer="25" ratio="10" rot="SR0"/>
 </element>
-<element name="C7" library="geoffculp" package="0805" value="0.1 uF" x="30.226" y="32.258" rot="R90"/>
+<element name="C7" library="geoffculp" package="0805" value="0.1 uF" x="30.226" y="32.258" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.4005" y="31.496" size="0.4064" layer="25" rot="R90"/>
+</element>
 <element name="C11" library="geoffculp" package="0805" value="0.1 uF" x="-38.354" y="23.368" smashed="yes" rot="R270">
 <attribute name="NAME" x="-37.5285" y="23.114" size="0.4064" layer="25" rot="R270"/>
 </element>
@@ -1425,17 +1513,32 @@ design rules under a new name.</description>
 <element name="C14" library="geoffculp" package="0805" value="0.1 uF" x="-28.194" y="12.954" smashed="yes" rot="R270">
 <attribute name="NAME" x="-29.1465" y="11.176" size="0.4064" layer="25" rot="R270"/>
 </element>
-<element name="C15" library="geoffculp" package="0805" value="0.1 uF" x="-2.794" y="68.072" rot="R90"/>
-<element name="C16" library="geoffculp" package="0805" value="0.1 uF" x="-12.954" y="68.326" rot="R90"/>
-<element name="R34" library="geoffculp" package="0805" value="10K" x="34.798" y="27.178" rot="R180"/>
-<element name="TP2" library="testpad" package="TP18SQ" value="TPTP18SQ" x="41.402" y="32.004">
-<attribute name="TP_SIGNAL_NAME" value="" x="41.402" y="32.004" size="1.778" layer="27" display="off"/>
+<element name="C15" library="geoffculp" package="0805" value="0.1 uF" x="-2.794" y="68.072" smashed="yes" rot="R90">
+<attribute name="NAME" x="-1.0795" y="68.58" size="0.4064" layer="25" rot="R90"/>
 </element>
-<element name="R36" library="geoffculp" package="0805" value="10K" x="30.988" y="19.304"/>
-<element name="R37" library="geoffculp" package="0805" value="10K" x="30.988" y="14.224"/>
-<element name="R38" library="geoffculp" package="0805" value="10K" x="31.242" y="11.43"/>
-<element name="U$2" library="adafruit" package="BEAGLEBEER_SHIELD" value="BEAGLEBONE_OUTLINEBEAGLEBEER" x="-0.254" y="0.254"/>
-<element name="R35" library="geoffculp" package="0805" value="10K" x="30.988" y="22.098"/>
+<element name="C16" library="geoffculp" package="0805" value="0.1 uF" x="-12.954" y="68.326" smashed="yes" rot="R90">
+<attribute name="NAME" x="-11.4935" y="69.088" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="R34" library="geoffculp" package="0805" value="10K" x="34.798" y="27.178" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.846" y="28.1305" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="TP2" library="testpad" package="TP18SQ" value="TPTP18SQ" x="41.402" y="32.004" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="41.402" y="29.464" size="1" layer="37"/>
+<attribute name="NAME" x="40.2481" y="29.398" size="1.27" layer="25"/>
+</element>
+<element name="R36" library="geoffculp" package="0805" value="10K" x="30.988" y="19.304" smashed="yes">
+<attribute name="NAME" x="30.226" y="20.1295" size="0.4064" layer="25"/>
+</element>
+<element name="R37" library="geoffculp" package="0805" value="10K" x="30.988" y="14.224" smashed="yes">
+<attribute name="NAME" x="30.226" y="15.0495" size="0.4064" layer="25"/>
+</element>
+<element name="R38" library="geoffculp" package="0805" value="10K" x="31.242" y="11.43" smashed="yes">
+<attribute name="NAME" x="30.48" y="12.2555" size="0.4064" layer="25"/>
+</element>
+<element name="U$2" library="adafruit" package="BEAGLEBEER_SHIELD" value="BEAGLEBONE_OUTLINEBEAGLEBEER" x="-0.254" y="0.254" smashed="yes"/>
+<element name="R35" library="geoffculp" package="0805" value="10K" x="30.988" y="22.098" smashed="yes">
+<attribute name="NAME" x="30.226" y="22.9235" size="0.4064" layer="25"/>
+</element>
 </elements>
 <signals>
 <signal name="N$4">
@@ -1937,7 +2040,8 @@ design rules under a new name.</description>
 <wire x1="-28.448" y1="25.908" x2="-28.448" y2="24.268" width="0.2032" layer="1"/>
 <wire x1="-28.575" y1="26.035" x2="-27.9908" y2="26.6192" width="0.2032" layer="1"/>
 <wire x1="-27.9908" y1="26.6192" x2="-27.9908" y2="31.1404" width="0.2032" layer="1"/>
-<wire x1="-10.16" y1="60.96" x2="-10.5378" y2="60.829" width="0" layer="19" extent="1-16"/>
+<wire x1="-12.7" y1="59.69" x2="-11.561" y2="60.829" width="0.2032" layer="1"/>
+<wire x1="-11.561" y1="60.829" x2="-10.5378" y2="60.829" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="JP3" pad="1"/>
@@ -2714,6 +2818,19 @@ design rules under a new name.</description>
 <via x="12.954" y="79.756" extent="1-16" drill="0.508" diameter="1.016"/>
 <via x="48.006" y="24.638" extent="1-16" drill="0.508" diameter="1.016"/>
 <via x="47.752" y="31.496" extent="1-16" drill="0.508" diameter="1.016"/>
+<contactref element="R17" pad="2"/>
+<contactref element="R18" pad="2"/>
+<wire x1="-40.756" y1="52.578" x2="-40.756" y2="49.784" width="0.2032" layer="1"/>
+<contactref element="R26" pad="2"/>
+<contactref element="R27" pad="2"/>
+<wire x1="-40.8576" y1="34.1884" x2="-40.756" y2="34.1884" width="0.2032" layer="1"/>
+<wire x1="-40.756" y1="34.1884" x2="-40.756" y2="31.1912" width="0.2032" layer="1"/>
+<contactref element="R15" pad="2"/>
+<contactref element="R16" pad="2"/>
+<wire x1="-40.756" y1="46.736" x2="-40.756" y2="43.942" width="0.2032" layer="1"/>
+<wire x1="-40.756" y1="46.736" x2="-40.756" y2="49.784" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.942" y1="50.419" x2="-40.756" y2="49.784" width="0" layer="19" extent="1-16"/>
+<wire x1="-40.756" y1="31.1912" x2="-41.656" y2="30.607" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$70">
 <contactref element="RELAY_A" pad="1"/>
@@ -3070,22 +3187,6 @@ design rules under a new name.</description>
 <via x="-37.084" y="50.038" extent="1-16" drill="0.508" diameter="1.016"/>
 <via x="-37.084" y="38.354" extent="1-16" drill="0.508" diameter="1.016"/>
 </signal>
-<signal name="N$2">
-<contactref element="R26" pad="2"/>
-<contactref element="R27" pad="2"/>
-<wire x1="-40.8576" y1="34.1884" x2="-40.756" y2="34.1884" width="0.2032" layer="1"/>
-<wire x1="-40.756" y1="34.1884" x2="-40.756" y2="31.1912" width="0.2032" layer="1"/>
-</signal>
-<signal name="N$3">
-<contactref element="R15" pad="2"/>
-<contactref element="R16" pad="2"/>
-<wire x1="-40.756" y1="46.736" x2="-40.756" y2="43.942" width="0.2032" layer="1"/>
-</signal>
-<signal name="N$20">
-<contactref element="R17" pad="2"/>
-<contactref element="R18" pad="2"/>
-<wire x1="-40.756" y1="52.578" x2="-40.756" y2="49.784" width="0.2032" layer="1"/>
-</signal>
 <signal name="N$1">
 <contactref element="Q7" pad="3"/>
 <contactref element="LED8" pad="C"/>
@@ -3185,8 +3286,6 @@ design rules under a new name.</description>
 <signal name="GPIO_E">
 <contactref element="HEADER-GPO" pad="2"/>
 </signal>
-<signal name="N$103">
-</signal>
 <signal name="N$102">
 <contactref element="U5" pad="7"/>
 <contactref element="R34" pad="1"/>
@@ -3206,10 +3305,8 @@ design rules under a new name.</description>
 <signal name="ALARM_3P3">
 <contactref element="U4" pad="8"/>
 <contactref element="JP3" pad="12"/>
-<contactref element="U$2" pad="69"/>
 <wire x1="-11.938" y1="61.722" x2="-11.531" y2="62.129" width="0.2032" layer="1"/>
 <wire x1="-11.531" y1="62.129" x2="-10.5378" y2="62.129" width="0.2032" layer="1"/>
-<wire x1="25.781" y1="26.924" x2="24.384" y2="28.321" width="0.2032" layer="16"/>
 <wire x1="24.384" y1="28.321" x2="24.384" y2="45.466" width="0.2032" layer="16"/>
 <wire x1="24.384" y1="45.466" x2="23.876" y2="45.974" width="0.2032" layer="16"/>
 <wire x1="23.876" y1="45.974" x2="-4.318" y2="45.974" width="0.2032" layer="16"/>
@@ -3217,10 +3314,12 @@ design rules under a new name.</description>
 <wire x1="-4.84893125" y1="46.50493125" x2="-4.84893125" y2="61.214" width="0.2032" layer="16"/>
 <wire x1="-4.84893125" y1="61.214" x2="-5.35693125" y2="61.722" width="0.2032" layer="16"/>
 <wire x1="-5.35693125" y1="61.722" x2="-11.938" y2="61.722" width="0.2032" layer="16"/>
-<wire x1="25.781" y1="26.924" x2="24.511" y2="25.654" width="0.2032" layer="1"/>
 <wire x1="24.511" y1="25.654" x2="21.971" y2="25.654" width="0.2032" layer="1"/>
 <wire x1="21.971" y1="25.654" x2="20.701" y2="26.924" width="0.2032" layer="1"/>
 <via x="-11.938" y="61.722" extent="1-16" drill="0.508" diameter="1.016"/>
+<contactref element="U$2" pad="69"/>
+<wire x1="24.511" y1="25.654" x2="25.781" y2="26.924" width="0" layer="19" extent="1-1"/>
+<wire x1="24.384" y1="28.321" x2="25.781" y2="26.924" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="RELAY_D_3P3">
 <contactref element="U4" pad="7"/>
