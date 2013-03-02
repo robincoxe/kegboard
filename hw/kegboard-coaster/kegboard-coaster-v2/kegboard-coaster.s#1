@@ -4814,7 +4814,6 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 <sheets>
 <sheet>
 <plain>
-<text x="180.34" y="17.78" size="3.048" layer="94">Kegboat Coaster (SMD)</text>
 </plain>
 <instances>
 <instance part="HEADER-RJ1" gate="G$1" x="35.56" y="129.54" rot="MR0"/>

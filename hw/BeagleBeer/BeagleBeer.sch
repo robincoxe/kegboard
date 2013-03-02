@@ -4984,7 +4984,7 @@ These drawing frames use the following global attributes:&lt;p&gt;
 <text x="98.7425" y="11.43" size="2.54" layer="94" font="vector" ratio="12">N</text>
 <text x="21.59" y="11.43" size="2.54" layer="94" font="vector" ratio="12">DATE</text>
 <text x="33.02" y="7.62" size="2.54" layer="94" ratio="10">&gt;LAST_DATE_TIME</text>
-<text x="112.7125" y="28.8925" size="1.778" layer="94" ratio="12">2012</text>
+<text x="112.7125" y="28.8925" size="1.778" layer="94" ratio="12">2013</text>
 <text x="109.0612" y="29.21" size="1.27" layer="94" ratio="12">C</text>
 <text x="5.3975" y="28.8925" size="1.9304" layer="94" ratio="12">ISSUE</text>
 <text x="1.27" y="23.495" size="1.778" layer="94" ratio="12">DRAWN</text>
@@ -5033,9 +5033,8 @@ These drawing frames use the following global attributes:&lt;p&gt;
 <wire x1="82.55" y1="-1.27" x2="82.55" y2="-7.62" width="0.1016" layer="94"/>
 <wire x1="82.55" y1="-7.62" x2="1.27" y2="-7.62" width="0.1016" layer="94"/>
 <wire x1="1.27" y1="-7.62" x2="1.27" y2="-1.27" width="0.1016" layer="94"/>
-<text x="3.81" y="-11.43" size="2.54" layer="94" ratio="14">PROPRIETARY</text>
-<text x="3.81" y="-4.064" size="1.27" layer="94" ratio="12">THIS DRAWING CONTAINS CONFIDENTIAL INFORMATION. ANY REPRODUCTION IN</text>
-<text x="3.81" y="-6.35" size="1.27" layer="94" ratio="12">PART OR WHOLE IS STRICTLY PROHIBITED WITHOUT WRITTEN PERMISSION!</text>
+<text x="3.81" y="-11.43" size="2.54" layer="94" ratio="14">CERN OHL Version 1.1</text>
+<text x="3.81" y="-4.064" size="1.27" layer="94" ratio="12">OPEN SOURCE HARDWARE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5928,8 +5927,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND40" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND41" library="SparkFun" deviceset="GND" device=""/>
-<part name="FRAME3" library="dframes" deviceset="US_11X17" device=""/>
-<part name="FRAME1" library="dframes" deviceset="US_11X17" device=""/>
 <part name="R34" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="TP2" library="testpad" deviceset="TP" device="TP18SQ"/>
 <part name="R36" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
@@ -5940,10 +5937,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$2" library="adafruit" deviceset="BEAGLEBONE_OUTLINE" device="BEAGLEBEER"/>
 <part name="R35" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="R30" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="FRAME1" library="dframes" deviceset="US_11X17" device="">
+<attribute name="CHECKED" value="Robin Coxe"/>
+<attribute name="COMPANY" value="Venture Cafe Foundation"/>
+<attribute name="DATE" value="8-FEB-2013"/>
+<attribute name="DRAWN" value="Robin Coxe"/>
+<attribute name="DRGNO" value="2"/>
+<attribute name="REV" value="0"/>
+</part>
+<part name="FRAME2" library="dframes" deviceset="US_11X17" device="">
+<attribute name="CHECKED" value="Robin Coxe"/>
+<attribute name="COMPANY" value="Venture Cafe Foundation"/>
+<attribute name="DATE" value="8-FEB-2013"/>
+<attribute name="DRAWN" value="Robin Coxe"/>
+<attribute name="DRGNO" value="2"/>
+<attribute name="REV" value="0"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="342.9" y="17.78" size="3.81" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="JP1" gate="G$1" x="93.98" y="165.1" rot="R180"/>
@@ -6003,9 +6017,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND39" gate="1" x="292.1" y="180.34"/>
 <instance part="GND40" gate="1" x="294.64" y="114.3"/>
 <instance part="GND41" gate="1" x="299.72" y="50.8"/>
-<instance part="FRAME3" gate="G$1" x="0" y="-2.54" smashed="yes"/>
-<instance part="FRAME3" gate="G$2" x="307.34" y="0"/>
-<instance part="FRAME3" gate="G$4" x="0" y="276.86"/>
 <instance part="R34" gate="G$1" x="35.56" y="231.14" rot="R90"/>
 <instance part="TP2" gate="G$1" x="17.78" y="229.362"/>
 <instance part="R36" gate="G$1" x="53.34" y="119.38" rot="R90"/>
@@ -6015,6 +6026,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="U$22" gate="G$1" x="193.04" y="127"/>
 <instance part="U$2" gate="G$1" x="129.54" y="132.08"/>
 <instance part="R35" gate="G$1" x="63.5" y="119.38" rot="R90"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0">
+<attribute name="CHECKED" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="COMPANY" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="DATE" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="DRAWN" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="DRGNO" x="0" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="REV" x="0" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FRAME2" gate="G$2" x="309.88" y="0"/>
+<instance part="FRAME2" gate="G$4" x="2.54" y="276.86"/>
 </instances>
 <busses>
 </busses>
@@ -7154,10 +7175,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="LED_FLOW_A_3P3" class="0">
 <segment>
-<wire x1="160.02" y1="284.48" x2="160.02" y2="261.62" width="0.1524" layer="91"/>
-<label x="160.02" y="261.62" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <wire x1="276.86" y1="208.28" x2="254" y2="208.28" width="0.1524" layer="91"/>
 <label x="254" y="208.28" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="A3"/>
@@ -7173,10 +7190,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </segment>
 </net>
 <net name="LED_FLOW_B_3P3" class="0">
-<segment>
-<wire x1="162.56" y1="284.48" x2="162.56" y2="261.62" width="0.1524" layer="91"/>
-<label x="162.56" y="261.62" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <wire x1="276.86" y1="205.74" x2="251.46" y2="205.74" width="0.1524" layer="91"/>
 <label x="251.46" y="205.74" size="1.778" layer="95"/>
@@ -7347,7 +7360,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </sheet>
 <sheet>
 <plain>
-<text x="330.2" y="15.24" size="2.54" layer="94">v1.1</text>
+<text x="342.9" y="17.78" size="3.81" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="HEADER-GPO" gate="G$1" x="365.76" y="96.52" rot="R180"/>
@@ -7464,10 +7477,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="GND1" gate="1" x="22.86" y="15.24"/>
 <instance part="C2" gate="G$1" x="22.86" y="25.4"/>
 <instance part="U$30" gate="G$1" x="22.86" y="38.1"/>
-<instance part="FRAME1" gate="G$1" x="0" y="-2.54"/>
-<instance part="FRAME1" gate="G$2" x="309.88" y="-2.54"/>
-<instance part="FRAME1" gate="G$4" x="2.54" y="274.32"/>
 <instance part="R30" gate="G$1" x="106.68" y="127" rot="R90"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0">
+<attribute name="CHECKED" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="COMPANY" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="DATE" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="DRAWN" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="DRGNO" x="0" y="0" size="1.778" layer="96"/>
+<attribute name="REV" x="0" y="0" size="1.778" layer="96"/>
+</instance>
+<instance part="FRAME1" gate="G$2" x="309.88" y="0"/>
+<instance part="FRAME1" gate="G$4" x="2.54" y="276.86"/>
 </instances>
 <busses>
 </busses>
