@@ -130,8 +130,8 @@
 <text x="3.81" y="10.16" size="0.6096" layer="21" font="vector" ratio="15">GND</text>
 <text x="3.81" y="2.54" size="0.6096" layer="21" font="vector" ratio="15">GND</text>
 <text x="3.81" y="7.62" size="0.6096" layer="21" font="vector" ratio="15">VCC</text>
-<text x="17.018" y="16.764" size="0.762" layer="21" font="vector" ratio="15">Kegbot Kegboard Coaster v.2.0</text>
-<text x="2.667" y="0.254" size="0.6096" layer="21" font="vector" ratio="15">January 2013</text>
+<text x="1.778" y="16.764" size="0.762" layer="21" font="vector" ratio="15">Kegbot Kegboard Coaster v.2.0</text>
+<text x="2.667" y="0.254" size="0.6096" layer="21" font="vector" ratio="15">February 2013</text>
 <text x="29.21" y="0.254" size="0.762" layer="21" font="vector" ratio="15">VENCAF.ORG </text>
 <text x="7.62" y="3.81" size="0.6096" layer="21" font="vector" ratio="15" rot="R90">VCC</text>
 <text x="17.78" y="3.81" size="0.6096" layer="21" font="vector" ratio="15" rot="R90">GPIO_B</text>
@@ -145,6 +145,7 @@
 <text x="15.24" y="13.97" size="0.6096" layer="21" font="vector" ratio="15" rot="R270">GND</text>
 <text x="7.62" y="13.97" size="0.6096" layer="21" font="vector" ratio="15" rot="R270">GND</text>
 <text x="12.7" y="13.97" size="0.6096" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
+<text x="24.13" y="16.764" size="0.762" layer="21" font="vector" ratio="15">Made in the USA</text>
 </plain>
 <libraries>
 <library name="SparkFun">
