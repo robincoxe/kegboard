@@ -1285,6 +1285,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="45.212" y="50.165" size="0.6096" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="HEADER-RJ1" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-53.594" y="30.48" rot="R270"/>
+<<<<<<< HEAD
 <element name="TEST_A" library="SparkFun-20100412" package="1X02" value="" x="5.334" y="109.22" smashed="yes">
 <attribute name="NAME" x="9.0678" y="110.7948" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.064" y="106.045" size="1.27" layer="27"/>
@@ -1293,18 +1294,27 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.3218" y="106.2228" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.064" y="100.965" size="1.27" layer="27"/>
 </element>
+=======
+<element name="TEST_A" library="SparkFun-20100412" package="1X02" value="" x="5.334" y="109.22"/>
+<element name="TEST_B" library="SparkFun-20100412" package="1X02" value="" x="5.334" y="104.14"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <element name="RELAY_A" library="SparkFun" package="RELAY-G5Q" value="RELAYPTH" x="45.72" y="91.694"/>
 <element name="RELAY_B" library="SparkFun" package="RELAY-G5Q" value="RELAYPTH" x="24.13" y="91.694"/>
 <element name="RELAY_C" library="SparkFun" package="RELAY-G5Q" value="RELAYPTH" x="2.032" y="91.694"/>
 <element name="RELAY_D" library="SparkFun" package="RELAY-G5Q" value="RELAYPTH" x="-21.59" y="91.694"/>
 <element name="HEADER-RJ2" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-53.594" y="67.564" rot="R270"/>
 <element name="U1" library="geoffculp" package="UMAX8" value="TEMPERATURE-SENSORUMAX8" x="-35.306" y="46.482" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="-33.909" y="49.784" size="1.016" layer="25" ratio="18" rot="R90"/>
+=======
+<attribute name="NAME" x="-37.211" y="45.212" size="1.016" layer="25" ratio="18" rot="R90"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R15" library="geoffculp" package="0805" value="2.2K" x="-41.656" y="46.736" smashed="yes">
 <attribute name="NAME" x="-39.878" y="46.5455" size="0.4064" layer="25"/>
 </element>
 <element name="R16" library="geoffculp" package="0805" value="2.2K" x="-41.656" y="43.942" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="-42.164" y="42.7355" size="0.4064" layer="25"/>
 </element>
 <element name="R17" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="52.578" smashed="yes">
@@ -1312,12 +1322,25 @@ design rules under a new name.</description>
 </element>
 <element name="R18" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="49.784" smashed="yes">
 <attribute name="NAME" x="-42.926" y="50.6095" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="-39.878" y="43.4975" size="0.4064" layer="25"/>
+</element>
+<element name="R17" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="52.578" smashed="yes">
+<attribute name="NAME" x="-39.878" y="52.3875" size="0.4064" layer="25"/>
+</element>
+<element name="R18" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="49.784" smashed="yes">
+<attribute name="NAME" x="-39.878" y="49.5935" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R19" library="geoffculp" package="0805" value="1K" x="31.496" y="56.896" smashed="yes">
 <attribute name="NAME" x="31.242" y="55.4355" size="0.4064" layer="25"/>
 </element>
 <element name="R13" library="geoffculp" package="0805" value="1K" x="45.72" y="31.496" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="47.498" y="31.5595" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="44.958" y="32.3215" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R20" library="geoffculp" package="0805" value="1K" x="52.07" y="25.908" smashed="yes">
 <attribute name="NAME" x="49.53" y="25.7175" size="0.4064" layer="25"/>
@@ -1326,6 +1349,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.6735" y="26.416" size="0.4064" layer="25" rot="R270"/>
 </element>
 <element name="R14" library="geoffculp" package="0805" value="1K" x="45.974" y="24.638" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="47.752" y="24.4475" size="0.4064" layer="25"/>
 </element>
 <element name="R23" library="geoffculp" package="0805" value="1K" x="52.324" y="18.796" smashed="yes">
@@ -1333,6 +1357,15 @@ design rules under a new name.</description>
 </element>
 <element name="R24" library="geoffculp" package="0805" value="10K" x="55.118" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="55.1815" y="19.812" size="0.4064" layer="25" rot="R270"/>
+=======
+<attribute name="NAME" x="43.18" y="24.1935" size="0.4064" layer="25"/>
+</element>
+<element name="R23" library="geoffculp" package="0805" value="1K" x="52.324" y="18.796" smashed="yes">
+<attribute name="NAME" x="51.562" y="19.6215" size="0.4064" layer="25"/>
+</element>
+<element name="R24" library="geoffculp" package="0805" value="10K" x="55.118" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.6575" y="21.844" size="0.4064" layer="25" rot="R270"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R1" library="geoffculp" package="0805" value="1K" x="45.72" y="80.772" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.434" y="81.7245" size="0.4064" layer="25" rot="R180"/>
@@ -1356,33 +1389,53 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-1.27" y="79.5655" size="0.4064" layer="25"/>
 </element>
 <element name="R9" library="geoffculp" package="0805" value="1K" x="1.778" y="75.184" smashed="yes" rot="R90">
+<<<<<<< HEAD
 <attribute name="NAME" x="2.4765" y="72.644" size="0.4064" layer="25" rot="R90"/>
+=======
+<attribute name="NAME" x="3.2385" y="73.914" size="0.4064" layer="25" rot="R90"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R10" library="geoffculp" package="0805" value="10K" x="-1.016" y="76.962" smashed="yes">
 <attribute name="NAME" x="-1.778" y="77.7875" size="0.4064" layer="25"/>
 </element>
 <element name="R4" library="geoffculp" package="0805" value="1K" x="-20.32" y="80.264" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="-22.86" y="80.0735" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="-20.32" y="81.3435" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R11" library="geoffculp" package="0805" value="1K" x="-18.796" y="77.216" smashed="yes">
 <attribute name="NAME" x="-21.59" y="77.0255" size="0.4064" layer="25"/>
 </element>
 <element name="R12" library="geoffculp" package="0805" value="10K" x="-17.272" y="74.422" smashed="yes" rot="R90">
+<<<<<<< HEAD
 <attribute name="NAME" x="-17.0815" y="71.628" size="0.4064" layer="25" rot="R90"/>
+=======
+<attribute name="NAME" x="-18.3515" y="74.422" size="0.4064" layer="25" rot="R90"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="C1" library="geoffculp" package="0805" value="0.1 uF" x="37.592" y="36.068" smashed="yes">
 <attribute name="NAME" x="36.83" y="36.8935" size="0.4064" layer="25"/>
 </element>
+<<<<<<< HEAD
 <element name="D1" library="geoffculp" package="SOD-323" value="" x="50.546" y="80.01" smashed="yes">
 <attribute name="NAME" x="50.165" y="78.486" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="49.53" y="78.613" size="0.4064" layer="27"/>
 </element>
+=======
+<element name="D1" library="geoffculp" package="SOD-323" value="" x="50.546" y="80.01"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <element name="D2" library="geoffculp" package="SOD-323" value="" x="28.448" y="79.756" smashed="yes">
 <attribute name="NAME" x="27.559" y="80.772" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="27.432" y="78.359" size="0.4064" layer="27"/>
 </element>
 <element name="D3" library="geoffculp" package="SOD-323" value="" x="4.826" y="79.756" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="6.985" y="79.756" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="2.667" y="80.518" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <attribute name="VALUE" x="3.81" y="78.359" size="0.4064" layer="27"/>
 </element>
 <element name="D4" library="geoffculp" package="SOD-323" value="" x="-15.494" y="79.502" smashed="yes">
@@ -1406,6 +1459,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-14.6685" y="77.216" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="Q5" library="geoffculp" package="SOT23-3" value="" x="52.07" y="28.702" smashed="yes" rot="R90">
+<<<<<<< HEAD
 <attribute name="NAME" x="54.102" y="30.4165" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="52.2605" y="27.686" size="0.4064" layer="27" rot="R90"/>
 </element>
@@ -1417,11 +1471,22 @@ design rules under a new name.</description>
 <attribute name="NAME" x="50.927" y="81.407" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="50.8" y="81.28" size="0.4064" layer="27"/>
 </element>
+=======
+<attribute name="NAME" x="50.292" y="27.8765" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.2605" y="27.686" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q6" library="geoffculp" package="SOT23-3" value="" x="51.816" y="21.844" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.038" y="21.0185" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.0065" y="20.828" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="LED1" library="SparkFun-LED" package="LED-1206" value="" x="51.816" y="83.058"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <element name="LED2" library="SparkFun-LED" package="LED-1206" value="" x="28.194" y="82.55" smashed="yes">
 <attribute name="NAME" x="27.305" y="83.947" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="27.178" y="80.772" size="0.4064" layer="27"/>
 </element>
 <element name="LED3" library="SparkFun-LED" package="LED-1206" value="" x="4.572" y="82.55" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="6.731" y="84.201" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="3.556" y="80.772" size="0.4064" layer="27"/>
 </element>
@@ -1449,18 +1514,49 @@ design rules under a new name.</description>
 </element>
 <element name="R27" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="31.1912" smashed="yes">
 <attribute name="NAME" x="-42.164" y="29.9847" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="3.683" y="83.947" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="3.556" y="80.772" size="0.4064" layer="27"/>
+</element>
+<element name="LED4" library="SparkFun-LED" package="LED-1206" value="" x="-16.002" y="82.55"/>
+<element name="LED5" library="SparkFun-LED" package="LED-1206" value="" x="35.814" y="56.896"/>
+<element name="LED6" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="28.702" smashed="yes">
+<attribute name="NAME" x="45.847" y="30.099" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.72" y="26.924" size="0.4064" layer="27"/>
+</element>
+<element name="LED7" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="21.844" smashed="yes">
+<attribute name="NAME" x="45.847" y="23.241" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.72" y="20.066" size="0.4064" layer="27"/>
+</element>
+<element name="R22" library="geoffculp" package="0805" value="2.2K" x="-41.6814" y="28.2448" smashed="yes">
+<attribute name="NAME" x="-42.9514" y="29.5783" size="0.4064" layer="25"/>
+</element>
+<element name="R25" library="geoffculp" package="0805" value="2.2K" x="-41.6306" y="25.3492" smashed="yes">
+<attribute name="NAME" x="-43.1546" y="26.4287" size="0.4064" layer="25"/>
+</element>
+<element name="R26" library="geoffculp" package="0805" value="4.7K" x="-41.7576" y="34.1884" smashed="yes">
+<attribute name="NAME" x="-42.5196" y="35.0139" size="0.4064" layer="25"/>
+</element>
+<element name="R27" library="geoffculp" package="0805" value="4.7K" x="-41.656" y="31.1912" smashed="yes">
+<attribute name="NAME" x="-42.418" y="32.0167" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R28" library="geoffculp" package="0805" value="1K" x="45.974" y="16.764" smashed="yes">
 <attribute name="NAME" x="45.212" y="17.5895" size="0.4064" layer="25"/>
 </element>
 <element name="R29" library="geoffculp" package="0805" value="1K" x="52.324" y="10.922" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="49.784" y="10.7315" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="51.562" y="11.7475" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="R30" library="geoffculp" package="0805" value="10K" x="55.626" y="13.97" smashed="yes" rot="R270"/>
 <element name="R31" library="geoffculp" package="0805" value="1K" x="45.72" y="10.16" smashed="yes">
 <attribute name="NAME" x="42.926" y="9.9695" size="0.4064" layer="25"/>
 </element>
 <element name="R32" library="geoffculp" package="0805" value="1K" x="55.118" y="5.588" smashed="yes" rot="R270">
+<<<<<<< HEAD
 <attribute name="NAME" x="56.1975" y="5.588" size="0.4064" layer="25" rot="R270"/>
 </element>
 <element name="R33" library="geoffculp" package="0805" value="10K" x="52.324" y="4.572" smashed="yes">
@@ -1476,6 +1572,23 @@ design rules under a new name.</description>
 </element>
 <element name="LED8" library="SparkFun-LED" package="LED-1206" value="" x="46.99" y="13.716" smashed="yes">
 <attribute name="NAME" x="47.879" y="15.113" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="54.9275" y="8.382" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="R33" library="geoffculp" package="0805" value="10K" x="52.324" y="4.572" smashed="yes">
+<attribute name="NAME" x="49.276" y="4.6355" size="0.4064" layer="25"/>
+</element>
+<element name="Q7" library="geoffculp" package="SOT23-3" value="" x="52.324" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.546" y="13.1445" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.5145" y="12.954" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="Q8" library="geoffculp" package="SOT23-3" value="" x="52.07" y="7.366" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.292" y="6.5405" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="52.2605" y="6.35" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="LED8" library="SparkFun-LED" package="LED-1206" value="" x="46.99" y="13.716" smashed="yes">
+<attribute name="NAME" x="42.545" y="13.843" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <attribute name="VALUE" x="45.974" y="11.938" size="0.4064" layer="27"/>
 </element>
 <element name="LED9" library="SparkFun-LED" package="LED-1206" value="" x="46.736" y="7.366" smashed="yes">
@@ -1492,6 +1605,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-12.3825" y="4.826" size="0.4064" layer="25" rot="R270"/>
 </element>
 <element name="C6" library="geoffculp" package="0805" value="0.1 uF" x="-18.796" y="-3.81" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="-19.05" y="-2.7305" size="0.4064" layer="25"/>
 </element>
 <element name="TEST_D" library="SparkFun-20100412" package="1X02" value="" x="-3.302" y="104.14" smashed="yes">
@@ -1503,20 +1617,36 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-11.2522" y="110.5408" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-4.318" y="106.299" size="1.27" layer="27"/>
 </element>
+=======
+<attribute name="NAME" x="-19.812" y="-5.0165" size="0.4064" layer="25"/>
+</element>
+<element name="TEST_D" library="SparkFun-20100412" package="1X02" value="" x="-3.302" y="104.14"/>
+<element name="HEADER-RJ3" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-54.102" y="48.514" rot="R270"/>
+<element name="TEST_C" library="SparkFun-20100412" package="1X02" value="" x="-3.048" y="109.474"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <element name="HEADER-RJ4" library="SparkFun" package="RJ45-8" value="RJ45-8PTH" x="-53.848" y="88.138" rot="R270"/>
 <element name="C2" library="geoffculp" package="0805" value="0.1 uF" x="52.07" y="32.258" smashed="yes">
 <attribute name="NAME" x="49.784" y="31.8135" size="0.4064" layer="25"/>
 </element>
 <element name="U2" library="adafruit" package="TSSOP20" value="" x="-33.528" y="28.194" smashed="yes" rot="R90">
+<<<<<<< HEAD
 <attribute name="NAME" x="-35.052" y="24.3944" size="0.6096" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="-31.4452" y="32.7302" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U3" library="adafruit" package="TSSOP20" value="" x="-33.02" y="17.018" smashed="yes" rot="R90">
 <attribute name="NAME" x="-34.7472" y="13.4724" size="0.6096" layer="25" ratio="10" rot="R180"/>
+=======
+<attribute name="NAME" x="-37.084" y="30.7444" size="0.6096" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-31.4452" y="32.7302" size="1.016" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="U3" library="adafruit" package="TSSOP20" value="" x="-33.02" y="17.018" smashed="yes" rot="R90">
+<attribute name="NAME" x="-35.5092" y="21.0924" size="0.6096" layer="25" ratio="10" rot="R180"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <attribute name="VALUE" x="-30.9372" y="21.5542" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U4" library="adafruit" package="TSSOP20" value="" x="-7.62" y="63.754" rot="R270"/>
 <element name="U5" library="ON Semiconductor_By_element14_Batch_1" package="SOIC127P600X175-8N" value="CAT24C256WI-GT3" x="35.052" y="31.496" smashed="yes">
+<<<<<<< HEAD
 <attribute name="NAME" x="34.1376" y="34.417" size="0.6096" layer="25" ratio="10" rot="SR0"/>
 </element>
 <element name="C7" library="geoffculp" package="0805" value="0.1 uF" x="30.226" y="32.258" smashed="yes" rot="R90">
@@ -1533,6 +1663,24 @@ design rules under a new name.</description>
 </element>
 <element name="C14" library="geoffculp" package="0805" value="0.1 uF" x="-28.194" y="12.954" smashed="yes" rot="R270">
 <attribute name="NAME" x="-28.3845" y="11.43" size="0.4064" layer="25" rot="R270"/>
+=======
+<attribute name="NAME" x="31.0896" y="28.321" size="0.6096" layer="25" ratio="10" rot="SR0"/>
+</element>
+<element name="C7" library="geoffculp" package="0805" value="0.1 uF" x="30.226" y="32.258" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.4005" y="31.496" size="0.4064" layer="25" rot="R90"/>
+</element>
+<element name="C11" library="geoffculp" package="0805" value="0.1 uF" x="-38.354" y="23.368" smashed="yes" rot="R270">
+<attribute name="NAME" x="-37.5285" y="23.114" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C12" library="geoffculp" package="0805" value="0.1 uF" x="-28.448" y="23.368" smashed="yes" rot="R270">
+<attribute name="NAME" x="-29.9085" y="23.622" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C13" library="geoffculp" package="0805" value="0.1 uF" x="-37.592" y="12.954" smashed="yes" rot="R270">
+<attribute name="NAME" x="-38.7985" y="12.446" size="0.4064" layer="25" rot="R270"/>
+</element>
+<element name="C14" library="geoffculp" package="0805" value="0.1 uF" x="-28.194" y="12.954" smashed="yes" rot="R270">
+<attribute name="NAME" x="-29.1465" y="11.176" size="0.4064" layer="25" rot="R270"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 <element name="C15" library="geoffculp" package="0805" value="0.1 uF" x="-2.794" y="68.072" smashed="yes" rot="R90">
 <attribute name="NAME" x="-1.0795" y="68.58" size="0.4064" layer="25" rot="R90"/>
@@ -1541,6 +1689,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-11.4935" y="69.088" size="0.4064" layer="25" rot="R90"/>
 </element>
 <element name="R34" library="geoffculp" package="0805" value="10K" x="34.798" y="27.178" smashed="yes" rot="R180">
+<<<<<<< HEAD
 <attribute name="NAME" x="35.306" y="26.0985" size="0.4064" layer="25" rot="R180"/>
 </element>
 <element name="TP2" library="testpad" package="TP18SQ" value="TPTP18SQ" x="41.402" y="32.004" smashed="yes">
@@ -1559,6 +1708,26 @@ design rules under a new name.</description>
 <element name="U$2" library="adafruit" package="BEAGLEBEER_SHIELD" value="BEAGLEBONE_OUTLINEBEAGLEBEER" x="-0.254" y="0.254" smashed="yes"/>
 <element name="R35" library="geoffculp" package="0805" value="10K" x="30.988" y="22.098" smashed="yes">
 <attribute name="NAME" x="32.766" y="21.9075" size="0.4064" layer="25"/>
+=======
+<attribute name="NAME" x="37.846" y="28.1305" size="0.4064" layer="25" rot="R180"/>
+</element>
+<element name="TP2" library="testpad" package="TP18SQ" value="TPTP18SQ" x="41.402" y="32.004" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="41.402" y="29.464" size="1" layer="37"/>
+<attribute name="NAME" x="40.2481" y="29.398" size="1.27" layer="25"/>
+</element>
+<element name="R36" library="geoffculp" package="0805" value="10K" x="30.988" y="19.304" smashed="yes">
+<attribute name="NAME" x="30.226" y="20.1295" size="0.4064" layer="25"/>
+</element>
+<element name="R37" library="geoffculp" package="0805" value="10K" x="30.988" y="14.224" smashed="yes">
+<attribute name="NAME" x="30.226" y="15.0495" size="0.4064" layer="25"/>
+</element>
+<element name="R38" library="geoffculp" package="0805" value="10K" x="31.242" y="11.43" smashed="yes">
+<attribute name="NAME" x="30.48" y="12.2555" size="0.4064" layer="25"/>
+</element>
+<element name="U$2" library="adafruit" package="BEAGLEBEER_SHIELD" value="BEAGLEBONE_OUTLINEBEAGLEBEER" x="-0.254" y="0.254" smashed="yes"/>
+<element name="R35" library="geoffculp" package="0805" value="10K" x="30.988" y="22.098" smashed="yes">
+<attribute name="NAME" x="30.226" y="22.9235" size="0.4064" layer="25"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </element>
 </elements>
 <signals>

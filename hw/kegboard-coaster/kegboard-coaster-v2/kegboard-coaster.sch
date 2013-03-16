@@ -139,6 +139,44 @@
 </package>
 </packages>
 <symbols>
+<<<<<<< HEAD
+=======
+<symbol name="LETTER_L">
+<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94" font="vector">Document Number:</text>
+<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
+</symbol>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <symbol name="RJ45-8">
 <wire x1="-7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-10.16" x2="5.08" y2="12.7" width="0.254" layer="94"/>
@@ -157,6 +195,24 @@
 </symbol>
 </symbols>
 <devicesets>
+<<<<<<< HEAD
+=======
+<deviceset name="FRAME-LETTER" prefix="FRAME">
+<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
+Standard 8.5x11 US Letter frame</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <deviceset name="RJ45-8">
 <description>&lt;b&gt;RJ45 Jack&lt;/b&gt;
 Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ethernet cables. Footprint not yet proven in production. Connector sku is PRT-00643; Breakout PCB sku is BOB-00716.</description>
@@ -4618,6 +4674,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
+<<<<<<< HEAD
 <library name="dframes">
 <description>&lt;b&gt;Schematic Sheet Drawing Frames&lt;/b&gt;&lt;p&gt;
 These drawing frames use the following global attributes:&lt;p&gt;
@@ -4784,6 +4841,8 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 </deviceset>
 </devicesets>
 </library>
+=======
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </libraries>
 <attributes>
 </attributes>
@@ -4794,6 +4853,10 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 </class>
 </classes>
 <parts>
+<<<<<<< HEAD
+=======
+<part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <part name="HEADER-RJ1" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
 <part name="J_FLOW" library="SparkFun-20100412" deviceset="M06" device="SIP"/>
 <part name="J_OW" library="SparkFun-20100412" deviceset="M06" device="SIP"/>
@@ -4802,6 +4865,7 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="-FKIT-1206"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1 uF"/>
 <part name="U$1" library="geoffculp" deviceset="TEMPERATURE-SENSOR" device="UMAX8"/>
+<<<<<<< HEAD
 <part name="FRAME1" library="dframes" deviceset="US_8,5X11" device="">
 <attribute name="CHECKED" value="Robin Coxe"/>
 <attribute name="COMPANY" value="Venture Cafe Foundation"/>
@@ -4810,13 +4874,22 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 <attribute name="DRGNO" value="1"/>
 <attribute name="REV" value="0"/>
 </part>
+=======
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </parts>
 <sheets>
 <sheet>
 <plain>
+<<<<<<< HEAD
 <text x="180.34" y="17.78" size="3.048" layer="94">Kegboat Coaster (SMD)</text>
 </plain>
 <instances>
+=======
+</plain>
+<instances>
+<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 <instance part="HEADER-RJ1" gate="G$1" x="35.56" y="129.54" rot="MR0"/>
 <instance part="J_FLOW" gate="G$1" x="109.22" y="134.62" rot="R180"/>
 <instance part="J_OW" gate="G$1" x="172.72" y="121.92" rot="R180"/>
@@ -4825,6 +4898,7 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 <instance part="LED1" gate="G$1" x="58.42" y="104.14" rot="R90"/>
 <instance part="C1" gate="G$1" x="60.96" y="83.82"/>
 <instance part="U$1" gate="G$1" x="106.68" y="106.68"/>
+<<<<<<< HEAD
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="CHECKED" x="0" y="0" size="1.778" layer="96"/>
 <attribute name="COMPANY" x="0" y="0" size="1.778" layer="96"/>
@@ -4835,6 +4909,8 @@ US Letter Size, 8.5x11"&lt;p&gt;Landscape</description>
 </instance>
 <instance part="FRAME1" gate="G$2" x="154.94" y="0"/>
 <instance part="FRAME1" gate="G$3" x="2.54" y="210.82"/>
+=======
+>>>>>>> 07cf474cda5eceedb210d44c0eb385985d901b3f
 </instances>
 <busses>
 </busses>
