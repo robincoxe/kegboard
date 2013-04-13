@@ -5909,6 +5909,7 @@ at 30/07/2012 14:34:29</description>
 <sheets>
 <sheet>
 <plain>
+<text x="332.74" y="17.78" size="2.54" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="JP1" gate="G$1" x="93.98" y="165.1" rot="R180"/>
@@ -5970,7 +5971,10 @@ at 30/07/2012 14:34:29</description>
 <instance part="R35" gate="G$1" x="63.5" y="119.38" rot="R90"/>
 <instance part="U$4" gate="G$1" x="182.88" y="129.54"/>
 <instance part="U$3" gate="G$1" x="76.2" y="129.54"/>
-<instance part="U4" gate="G$1" x="71.12" y="218.44"/>
+<instance part="U4" gate="G$1" x="71.12" y="218.44" smashed="yes">
+<attribute name="NAME" x="65.7606" y="236.0422" size="2.0828" layer="95" ratio="10" rot="SR0"/>
+<attribute name="VALUE" x="56.9214" y="197.7136" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+</instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="309.88" y="0">
 <attribute name="COMPANY" x="309.88" y="0" size="1.778" layer="96" display="off"/>
@@ -6678,8 +6682,8 @@ at 30/07/2012 14:34:29</description>
 <net name="FLOW_A_3P3" class="0">
 <segment>
 <wire x1="165.1" y1="190.5" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
-<label x="180.34" y="190.5" size="1.778" layer="95"/>
-<wire x1="167.64" y1="190.5" x2="193.04" y2="190.5" width="0.1524" layer="91"/>
+<label x="175.26" y="190.5" size="1.778" layer="95"/>
+<wire x1="167.64" y1="190.5" x2="195.58" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="190.5" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <pinref part="U5" gate="G$1" pin="GPIO1_7"/>
@@ -6753,7 +6757,7 @@ at 30/07/2012 14:34:29</description>
 <pinref part="U5" gate="G$1" pin="GPIO2_10"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <label x="175.26" y="167.64" size="1.778" layer="95"/>
 <wire x1="157.48" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="11"/>
@@ -6773,7 +6777,7 @@ at 30/07/2012 14:34:29</description>
 <pinref part="U5" gate="G$1" pin="GPIO2_12"/>
 </segment>
 <segment>
-<wire x1="195.58" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="175.26" y="170.18" size="1.778" layer="95"/>
 <wire x1="157.48" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="10"/>
@@ -6907,8 +6911,8 @@ at 30/07/2012 14:34:29</description>
 </net>
 <net name="FLOW_B_3P3" class="0">
 <segment>
-<wire x1="167.64" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
-<label x="180.34" y="187.96" size="1.778" layer="95"/>
+<wire x1="167.64" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
+<label x="175.26" y="187.96" size="1.778" layer="95"/>
 <wire x1="167.64" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
 <pinref part="U5" gate="G$1" pin="GPIO1_3"/>
@@ -6917,8 +6921,8 @@ at 30/07/2012 14:34:29</description>
 </net>
 <net name="FLOW_C_3P3" class="0">
 <segment>
-<wire x1="198.12" y1="180.34" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
-<label x="172.72" y="180.34" size="1.778" layer="95"/>
+<wire x1="200.66" y1="180.34" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
+<label x="175.26" y="180.34" size="1.778" layer="95"/>
 <wire x1="157.48" y1="180.34" x2="167.64" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 <pinref part="U5" gate="G$1" pin="GPIO1_12"/>
@@ -6928,7 +6932,7 @@ at 30/07/2012 14:34:29</description>
 <net name="FLOW_D_3P3" class="0">
 <segment>
 <wire x1="200.66" y1="177.8" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
-<label x="172.72" y="177.8" size="1.778" layer="95"/>
+<label x="175.26" y="177.8" size="1.778" layer="95"/>
 <wire x1="157.48" y1="177.8" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="7"/>
 <pinref part="U5" gate="G$1" pin="GPIO0_26"/>
@@ -6971,8 +6975,8 @@ at 30/07/2012 14:34:29</description>
 <wire x1="167.64" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="160.02" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
-<label x="180.34" y="160.02" size="1.778" layer="95"/>
+<wire x1="167.64" y1="160.02" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
+<label x="175.26" y="160.02" size="1.778" layer="95"/>
 <wire x1="157.48" y1="160.02" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="14"/>
 <pinref part="U5" gate="G$1" pin="GPIO2_24"/>
@@ -6991,8 +6995,8 @@ at 30/07/2012 14:34:29</description>
 <pinref part="U5" gate="G$1" pin="GPIO2_11"/>
 </segment>
 <segment>
-<wire x1="167.64" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
-<label x="180.34" y="157.48" size="1.778" layer="95"/>
+<wire x1="167.64" y1="157.48" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
+<label x="175.26" y="157.48" size="1.778" layer="95"/>
 <wire x1="157.48" y1="157.48" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="15"/>
 <pinref part="U5" gate="G$1" pin="GPIO2_25"/>
@@ -7134,7 +7138,7 @@ at 30/07/2012 14:34:29</description>
 </sheet>
 <sheet>
 <plain>
-<text x="330.2" y="15.24" size="2.54" layer="94">BeagleBeer Controller</text>
+<text x="332.74" y="15.24" size="2.54" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="GPO" gate="G$1" x="365.76" y="96.52" rot="R180"/>

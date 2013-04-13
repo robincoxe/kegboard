@@ -1,4 +1,4 @@
-Partlist exported from c:/close-haul/github/kegboard/hw/BeagleBeer/BeagleBeer.sch at 4/12/2013 9:27:13 PM
+Partlist exported from c:/close-haul/github/kegboard/hw/BeagleBeer/BeagleBeer.sch at 4/12/2013 11:06:30 PM
 
 Part         Value                        Device                       Package               Description                                        TP_SIGNAL_NAME
 C1           0.1 uF                       CAP0805                      0805                  Capacitor                                                        
@@ -91,8 +91,6 @@ RELAY_C      RELAYPTH                     RELAYPTH                     RELAY-G5Q
 RELAY_D      RELAYPTH                     RELAYPTH                     RELAY-G5Q                                                                              
 RJ1          RJ45-8PTH                    RJ45-8PTH                    RJ45-8                RJ45 Jack                                                        
 RJ2          RJ45-8PTH                    RJ45-8PTH                    RJ45-8                RJ45 Jack                                                        
-RJ3          RJ45-8PTH                    RJ45-8PTH                    RJ45-8                RJ45 Jack                                                        
-RJ4          RJ45-8PTH                    RJ45-8PTH                    RJ45-8                RJ45 Jack                                                        
 SG1          BUZZERPTH                    BUZZERPTH                    BUZZER-12MM           Buzzer 12mm                                                      
 SW1                                       TAC_SWITCHPTH                TACTILE-PTH           Momentary Switch                                                 
 TEST_A                                    JUMPER-2PTH                  1X02                  Jumper                                                           
