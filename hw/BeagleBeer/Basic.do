@@ -1,10 +1,10 @@
 bestsave on
 grid wire 0.001230
 grid via 0.001230
-rule pcb (width 8.000000)
-rule pcb (clearance 8.000000)
-rule pcb (clearance 10.000000 (type via_area))
-rule pcb (clearance 10.000000 (type wire_area))
+rule pcb (width 6.000000)
+rule pcb (clearance 6.000000)
+rule pcb (clearance 20.000000 (type via_area))
+rule pcb (clearance 20.000000 (type wire_area))
 bus diagonal
 fanout 5
 route 20

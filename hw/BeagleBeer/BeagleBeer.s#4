@@ -5878,6 +5878,7 @@ at 30/07/2012 14:34:29</description>
 <attribute name="COMPANY" value="Venture Cafe Foundation"/>
 <attribute name="DATE" value="12-APR-2013"/>
 <attribute name="DRAWN" value="Robin Coxe"/>
+<attribute name="DRGNO" value="BB-0401"/>
 <attribute name="REV" value="2"/>
 </part>
 <part name="R34" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
@@ -5895,11 +5896,20 @@ at 30/07/2012 14:34:29</description>
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$3" library="SparkFun" deviceset="5V" device=""/>
 <part name="U4" library="ON Semiconductor_By_element14_Batch_1" deviceset="CAT24C256WI-GT3" device=""/>
-<part name="FRAME2" library="dframes" deviceset="US_11X17" device=""/>
+<part name="FRAME2" library="dframes" deviceset="US_11X17" device="">
+<attribute name="CHECKED" value="Robin Coxe"/>
+<attribute name="COMPANY" value="Venture Cafe Foundation"/>
+<attribute name="DATE" value="12-APR-2013"/>
+<attribute name="DRAWN" value="Robin Coxe"/>
+<attribute name="DRGNO" value="BB-0401"/>
+<attribute name="REV" value="2"/>
+<attribute name="TITLE" value="BeagleBeer Controller"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="332.74" y="17.78" size="2.54" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="JP1" gate="G$1" x="93.98" y="165.1" rot="R180"/>
@@ -5963,7 +5973,15 @@ at 30/07/2012 14:34:29</description>
 <instance part="U$3" gate="G$1" x="76.2" y="129.54"/>
 <instance part="U4" gate="G$1" x="71.12" y="218.44"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="FRAME2" gate="G$2" x="309.88" y="0"/>
+<instance part="FRAME2" gate="G$2" x="309.88" y="0">
+<attribute name="COMPANY" x="309.88" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="DATE" x="309.88" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="DRAWN" x="309.88" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="REV" x="309.88" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="CHECKED" x="309.88" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="DRGNO" x="309.88" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="TITLE" x="309.88" y="0" size="1.778" layer="96" display="name"/>
+</instance>
 <instance part="FRAME2" gate="G$4" x="2.54" y="276.86"/>
 </instances>
 <busses>
@@ -7117,7 +7135,7 @@ at 30/07/2012 14:34:29</description>
 </sheet>
 <sheet>
 <plain>
-<text x="330.2" y="15.24" size="2.54" layer="94">BeagleBeer Controller</text>
+<text x="332.74" y="15.24" size="2.54" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="GPO" gate="G$1" x="365.76" y="96.52" rot="R180"/>
@@ -7244,6 +7262,7 @@ at 30/07/2012 14:34:29</description>
 <attribute name="SHEET" x="419.1" y="-1.27" size="2.54" layer="94" font="vector" ratio="10"/>
 <attribute name="DRAWING_NAME" x="343.2175" y="-1.27" size="2.54" layer="94" ratio="10"/>
 <attribute name="LAST_DATE_TIME" x="342.9" y="5.08" size="2.54" layer="94" ratio="10"/>
+<attribute name="DRGNO" x="401.32" y="5.08" size="2.1844" layer="94"/>
 </instance>
 <instance part="R30" gate="G$1" x="106.68" y="127" rot="R90"/>
 <instance part="U$5" gate="G$1" x="134.62" y="248.92"/>

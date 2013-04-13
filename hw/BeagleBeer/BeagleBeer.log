@@ -1,6 +1,4 @@
-#
-# DO file created by ELECTRA V2.9.4 made 04/12/2013 at 22:29:18
-# 
+# Writing all output to: C:\Close-Haul\GitHub\kegboard\hw\BeagleBeer\BeagleBeer.log
 bus diagonal
 fanout 5
 route 10
@@ -10,3 +8,4 @@ clean 2
 filter 5
 recorner diagonal
 status_file
+
