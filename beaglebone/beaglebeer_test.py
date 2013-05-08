@@ -1,3 +1,11 @@
+# BeagleBeer Test 
+# Robin Coxe (coxe@close-haul.com)
+# 7 May 2013
+
+# Built using PyBBIO: https://github.com/alexanderhiam/PyBBIO/wiki
+# DS18B20 temperature sensor code courtesy of Adafruit:
+# http://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/software
+
 import os
 import glob
 import time
@@ -21,12 +29,12 @@ COUNTS_PER_SERVING = 1400
 # 1 250 mL serving = 1400 counts
 
 def flowa_tick():
-       global tick_count
+       global tick_count  #yes, I know global variables are hideous.
        tick_count += 1 
        if(tick_count % COUNTS_PER_SERVING) == 0:
             servings = tick_count / COUNTS_PER_SERVING
             print "Flowmeter ticks:", tick_count            
-	    print "Servings:", servings
+	        print "Servings:", servings
   
 def read_temp_raw(nsens):
     f = open(device_file[nsens], 'r')
@@ -54,7 +62,7 @@ def setup():
   	
 def loop():
 	print(read_temp(0))
-        print(read_temp(1))
+    print(read_temp(1))
 	time.sleep(60)
 
-run (setup,loop)
+run (setup,loop)  #keep Arduino-style main loop for now.
