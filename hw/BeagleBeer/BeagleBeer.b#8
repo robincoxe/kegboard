@@ -141,11 +141,11 @@
 <text x="43.2308" y="2.413" size="1.778" layer="21" rot="R180">1</text>
 <text x="81.8388" y="59.817" size="1.27" layer="21" rot="R180">46</text>
 <text x="51.1048" y="62.357" size="1.27" layer="21" rot="R180">45</text>
-<text x="25.9588" y="12.827" size="2.032" layer="21" font="vector" rot="R180">BeagleBeer 
+<text x="25.9588" y="12.827" size="2.032" layer="21" font="vector" rot="R180">BeagleBeer
 www.vencaf.org</text>
 <text x="1.0668" y="112.649" size="2.032" layer="21" font="vector">Flying Squirrel 
 Controller</text>
-<text x="2.3368" y="2.921" size="1.27" layer="21" font="vector">April 2013
+<text x="2.3368" y="2.921" size="1.27" layer="21" font="vector">Rev. 2 (April 2013)
 Made in the USA</text>
 </plain>
 <libraries>

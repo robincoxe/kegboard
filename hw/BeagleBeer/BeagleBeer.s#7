@@ -5909,6 +5909,7 @@ at 30/07/2012 14:34:29</description>
 <sheets>
 <sheet>
 <plain>
+<text x="332.74" y="17.78" size="2.54" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="JP1" gate="G$1" x="93.98" y="165.1" rot="R180"/>
@@ -7134,7 +7135,7 @@ at 30/07/2012 14:34:29</description>
 </sheet>
 <sheet>
 <plain>
-<text x="330.2" y="15.24" size="2.54" layer="94">BeagleBeer Controller</text>
+<text x="332.74" y="15.24" size="2.54" layer="94">BeagleBeer Controller</text>
 </plain>
 <instances>
 <instance part="GPO" gate="G$1" x="365.76" y="96.52" rot="R180"/>

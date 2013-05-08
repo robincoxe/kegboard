@@ -5801,10 +5801,10 @@ at 30/07/2012 14:34:29</description>
 </class>
 </classes>
 <parts>
-<part name="JP1" library="microbuilder" deviceset="HEADER-1X23" device=""/>
-<part name="JP2" library="microbuilder" deviceset="HEADER-1X23" device=""/>
-<part name="JP3" library="microbuilder" deviceset="HEADER-1X23" device=""/>
-<part name="JP4" library="microbuilder" deviceset="HEADER-1X23" device=""/>
+<part name="JP1" library="microbuilder" deviceset="HEADER-1X23" device="" value="SF_PRT-00116"/>
+<part name="JP2" library="microbuilder" deviceset="HEADER-1X23" device="" value="SF_PRT-00116"/>
+<part name="JP3" library="microbuilder" deviceset="HEADER-1X23" device="" value="SF_PRT-00116"/>
+<part name="JP4" library="microbuilder" deviceset="HEADER-1X23" device="" value="SF_PRT-00116"/>
 <part name="U$10" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$11" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$12" library="microbuilder" deviceset="GND" device=""/>
@@ -5829,7 +5829,7 @@ at 30/07/2012 14:34:29</description>
 <part name="U$27" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
-<part name="SW1" library="SparkFun" deviceset="TAC_SWITCH" device="PTH"/>
+<part name="SW1" library="SparkFun" deviceset="TAC_SWITCH" device="PTH" value="SF_COM-00097"/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$31" library="SparkFun" deviceset="5V" device=""/>
@@ -5837,8 +5837,8 @@ at 30/07/2012 14:34:29</description>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="RJ1" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
-<part name="TEST_A" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH"/>
-<part name="TEST_B" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH"/>
+<part name="TEST_A" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH" value="SF_PRT-00116"/>
+<part name="TEST_B" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH" value="SF_PRT-00116"/>
 <part name="RELAY_A" library="SparkFun" deviceset="RELAY" device="PTH"/>
 <part name="RELAY_B" library="SparkFun" deviceset="RELAY" device="PTH"/>
 <part name="RELAY_C" library="SparkFun" deviceset="RELAY" device="PTH"/>
@@ -5873,23 +5873,23 @@ at 30/07/2012 14:34:29</description>
 <part name="R11" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="R12" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="C1" library="geoffculp" deviceset="CAP" device="0805" value="0.1 uF"/>
-<part name="D1" library="geoffculp" deviceset="DIODE" device="SOD"/>
-<part name="D2" library="geoffculp" deviceset="DIODE" device="SOD"/>
-<part name="D3" library="geoffculp" deviceset="DIODE" device="SOD"/>
-<part name="D4" library="geoffculp" deviceset="DIODE" device="SOD"/>
-<part name="Q1" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q2" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q3" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q4" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q5" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q6" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED2" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED3" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED4" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED5" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED6" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED7" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="D1" library="geoffculp" deviceset="DIODE" device="SOD" value="1N4148WX-TP"/>
+<part name="D2" library="geoffculp" deviceset="DIODE" device="SOD" value="1N4148WX-TP"/>
+<part name="D3" library="geoffculp" deviceset="DIODE" device="SOD" value="1N4148WX-TP"/>
+<part name="D4" library="geoffculp" deviceset="DIODE" device="SOD" value="1N4148WX-TP"/>
+<part name="Q1" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="Q2" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="Q3" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="Q4" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="Q5" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="Q6" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="LED1" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED2" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED3" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED4" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED5" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED6" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED7" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
 <part name="R22" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="2.2K"/>
 <part name="R25" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="2.2K"/>
 <part name="R26" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
@@ -5905,10 +5905,10 @@ at 30/07/2012 14:34:29</description>
 <part name="R31" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="R32" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="R33" library="geoffculp" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="Q7" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="Q8" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3"/>
-<part name="LED8" library="SparkFun-LED" deviceset="LED" device="1206"/>
-<part name="LED9" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="Q7" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="Q8" library="geoffculp" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT2222A-7-F"/>
+<part name="LED8" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
+<part name="LED9" library="SparkFun-LED" deviceset="LED" device="1206" value="LG N971-KN-1"/>
 <part name="GND24" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$35" library="SparkFun" deviceset="5V" device=""/>
 <part name="C3" library="geoffculp" deviceset="CAP" device="0805" value="0.1 uF"/>
@@ -5921,17 +5921,17 @@ at 30/07/2012 14:34:29</description>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="C6" library="geoffculp" deviceset="CAP" device="0805" value="0.1 uF"/>
 <part name="U$40" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="TEST_D" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH"/>
+<part name="TEST_D" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH" value="SF_PRT-00116"/>
 <part name="RJ2" library="SparkFun" deviceset="RJ45-8" device="PTH"/>
-<part name="TEST_C" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH"/>
+<part name="TEST_C" library="SparkFun-20100412" deviceset="JUMPER-2" device="PTH" value="SF_PRT-00116"/>
 <part name="U$16" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$29" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$8" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="C2" library="geoffculp" deviceset="CAP" device="0805" value="0.1 uF"/>
 <part name="U$30" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U2" library="adafruit" deviceset="TXB0108PWR" device=""/>
-<part name="U3" library="adafruit" deviceset="TXB0108PWR" device=""/>
+<part name="U2" library="adafruit" deviceset="TXB0108PWR" device="" value="TXB0108"/>
+<part name="U3" library="adafruit" deviceset="TXB0108PWR" device="" value="TXB0108"/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="C7" library="geoffculp" deviceset="CAP" device="0805" value="0.1 uF"/>
 <part name="U$44" library="microbuilder" deviceset="3.3V" device=""/>
@@ -7408,8 +7408,14 @@ at 30/07/2012 14:34:29</description>
 <instance part="GND16" gate="1" x="66.04" y="15.24"/>
 <instance part="GND2" gate="1" x="185.42" y="172.72"/>
 <instance part="RJ1" gate="G$1" x="363.22" y="233.68"/>
-<instance part="TEST_A" gate="A" x="365.76" y="71.12" rot="R270"/>
-<instance part="TEST_B" gate="A" x="365.76" y="63.5" rot="R270"/>
+<instance part="TEST_A" gate="A" x="365.76" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="365.76" y="72.39" size="1.778" layer="95"/>
+<attribute name="VALUE" x="370.84" y="67.945" size="1.778" layer="96"/>
+</instance>
+<instance part="TEST_B" gate="A" x="365.76" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="365.76" y="64.77" size="1.778" layer="95"/>
+<attribute name="VALUE" x="370.84" y="60.325" size="1.778" layer="96"/>
+</instance>
 <instance part="RELAY_A" gate="G$1" x="271.78" y="231.14"/>
 <instance part="RELAY_B" gate="G$1" x="271.78" y="170.18"/>
 <instance part="RELAY_C" gate="G$1" x="271.78" y="109.22"/>
@@ -7482,9 +7488,15 @@ at 30/07/2012 14:34:29</description>
 <instance part="Q8" gate="G$1" x="119.38" y="71.12"/>
 <instance part="LED8" gate="G$1" x="111.76" y="149.86" rot="R90"/>
 <instance part="LED9" gate="G$1" x="111.76" y="83.82" rot="R90"/>
-<instance part="TEST_D" gate="A" x="365.76" y="48.26" rot="R270"/>
+<instance part="TEST_D" gate="A" x="365.76" y="48.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="365.76" y="49.53" size="1.778" layer="95"/>
+<attribute name="VALUE" x="365.76" y="42.545" size="1.778" layer="96"/>
+</instance>
 <instance part="RJ2" gate="G$1" x="363.22" y="165.1"/>
-<instance part="TEST_C" gate="A" x="365.76" y="55.88" rot="R270"/>
+<instance part="TEST_C" gate="A" x="365.76" y="55.88" smashed="yes" rot="R270">
+<attribute name="NAME" x="365.76" y="57.15" size="1.778" layer="95"/>
+<attribute name="VALUE" x="370.84" y="52.705" size="1.778" layer="96"/>
+</instance>
 <instance part="U$16" gate="G$1" x="134.62" y="215.9"/>
 <instance part="U$29" gate="G$1" x="33.02" y="99.06"/>
 <instance part="U$8" gate="G$1" x="144.78" y="182.88"/>
@@ -8363,6 +8375,22 @@ at 30/07/2012 14:34:29</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,101.6,124.46,U5,VDD_3V3EXP,3.3V,,,"/>
+<approved hash="104,1,157.48,124.46,U5,VDD_3V3EXP,3.3V,,,"/>
+<approved hash="104,1,101.6,121.92,U5,VDD_5V,N$49,,,"/>
+<approved hash="104,1,157.48,121.92,U5,VDD_5V,N$72,,,"/>
+<approved hash="104,1,157.48,81.28,U5,AIN3,N$88,,,"/>
+<approved hash="104,1,101.6,78.74,U5,AIN0,N$66,,,"/>
+<approved hash="104,1,101.6,190.5,U5,GPIO1_6,ONEWIRE_A_3P3,,,"/>
+<approved hash="104,1,157.48,190.5,U5,GPIO1_7,FLOW_A_3P3,,,"/>
+<approved hash="104,1,157.48,142.24,U5,GPIO2_11,N$13,,,"/>
+<approved hash="104,1,101.6,139.7,U5,GPIO2_8,N$2,,,"/>
+<approved hash="104,1,157.48,139.7,U5,GPIO2_9,N$14,,,"/>
+<approved hash="104,1,101.6,137.16,U5,GPIO2_6,N$3,,,"/>
+<approved hash="104,1,157.48,137.16,U5,GPIO2_7,N$15,,,"/>
+<approved hash="104,1,53.34,228.6,U4,VCC,3.3V,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

@@ -1709,6 +1709,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="40.2336" y1="24.7904" x2="40.8432" y2="24.7904" width="0.1524" layer="16"/>
 <wire x1="45.1104" y1="24.7904" x2="45.1358" y2="24.765" width="0.1524" layer="16"/>
 <wire x1="40.2336" y1="24.7904" x2="40.0558" y2="24.765" width="0.1524" layer="16"/>
+<contactref element="U2" pad="3"/>
+<wire x1="45.1358" y1="24.765" x2="63.935" y2="32.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$49">
 <contactref element="JP3" pad="21"/>

@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 /hw/BeagleBeer.zip
+=======
+### global stuff
+*.DS_Store
+*.pyc
+*.egg
+*.o
+*.hex
+
+python/dist/*
+python/distribute-*
+python/*egg-info
+
+arduino/kegboard/.dep
+arduino/kegboard/.lib
+>>>>>>> upstream/master

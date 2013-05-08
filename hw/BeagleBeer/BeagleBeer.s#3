@@ -7114,6 +7114,7 @@ at 30/07/2012 14:34:29</description>
 <segment>
 <label x="251.46" y="144.78" size="1.778" layer="95"/>
 <wire x1="251.46" y1="144.78" x2="279.4" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="LED_FLOW_C_3P3" class="0">
