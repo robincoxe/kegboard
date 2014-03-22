@@ -43,6 +43,7 @@ def flowa_tick():
             print "Flowmeter ticks:", tick_count            
 	        print "Pints:", volume
             lcd.write("Pints Dispensed:", volume)  
+
 def read_temp_raw(nsens):
     f = open(device_file[nsens], 'r')
     lines = f.readlines()

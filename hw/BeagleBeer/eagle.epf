@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 04 00"
+Version="06 05 00"
 Platform="Windows"
 Serial="6F01A75462-LSR-WLM-1CP"
 Globals="Globals"
@@ -55,6 +55,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -9.16025 -6.19861 440.757 285.311"
 Sheet=1
 
 [Win_2]
@@ -64,6 +65,6 @@ State=2
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3840 1080"
 Window="Win_1"
 Window="Win_2"
